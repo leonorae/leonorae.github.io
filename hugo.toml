@@ -83,3 +83,7 @@ pagination.pagerSize = 5
     [languages.en.params.logo]
       logoText = "leonorae"
       logoHomeLink = "/"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
