@@ -42,6 +42,86 @@
     </item>
     
     <item>
+      <title>Project Proposal</title>
+      <link>https://leonorae.github.io/posts/project-proposal/</link>
+      <pubDate>Thu, 18 Sep 2025 18:41:10 -0500</pubDate>
+      
+      <guid>https://leonorae.github.io/posts/project-proposal/</guid>
+      <description>&lt;h1 id=&#34;project-proposal&#34;&gt;Project Proposal&lt;/h1&gt;
+&lt;h2 id=&#34;causal-inference-pipeline-with-api&#34;&gt;Causal Inference Pipeline with API&lt;/h2&gt;
+&lt;h3 id=&#34;vision-statement&#34;&gt;Vision Statement&lt;/h3&gt;
+&lt;p&gt;Causal inference is a technique that is important in the history of artificial
+intelligence. It is interested in finding causes and effects from data and
+constructing causal models. It is a difficult problem for many reasons, including
+the classic &amp;ldquo;coorelation does not imply causation&amp;rdquo; problem. A ground truth is often
+difficult to find, and experimenting/gathering many kinds of data can be difficult
+or impossible.
+It is related to the field of econometrics, and is important to the medical field
+in assessing causes of patient outcomes.
+I would like to explore the current state of the field using Python libraries,
+developing a basic pipeline and experimenting with various techniques and datasets,
+and ultimately deliver a functional API.&lt;/p&gt;</description>
+      <content>&lt;h1 id=&#34;project-proposal&#34;&gt;Project Proposal&lt;/h1&gt;
+&lt;h2 id=&#34;causal-inference-pipeline-with-api&#34;&gt;Causal Inference Pipeline with API&lt;/h2&gt;
+&lt;h3 id=&#34;vision-statement&#34;&gt;Vision Statement&lt;/h3&gt;
+&lt;p&gt;Causal inference is a technique that is important in the history of artificial
+intelligence. It is interested in finding causes and effects from data and
+constructing causal models. It is a difficult problem for many reasons, including
+the classic &amp;ldquo;coorelation does not imply causation&amp;rdquo; problem. A ground truth is often
+difficult to find, and experimenting/gathering many kinds of data can be difficult
+or impossible.
+It is related to the field of econometrics, and is important to the medical field
+in assessing causes of patient outcomes.
+I would like to explore the current state of the field using Python libraries,
+developing a basic pipeline and experimenting with various techniques and datasets,
+and ultimately deliver a functional API.&lt;/p&gt;
+&lt;h3 id=&#34;motivation&#34;&gt;Motivation&lt;/h3&gt;
+&lt;p&gt;I would like to learn more about Bayes Nets and causal theory while gaining
+practical software development experience. I would like to gain an understanding of
+the available python packages related to these topics and be able to explain their
+differences and compatabilities. I need to gain experience with project design and
+management. I think it will be a good experience to document my project as I work
+on it.&lt;/p&gt;
+&lt;h3 id=&#34;goals--milestones&#34;&gt;Goals / Milestones&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Implement a basic causal inference pipeline with example data using causal
+inference python packages. Document experience and reasoning for choices.&lt;/li&gt;
+&lt;li&gt;Outcome: gain knowledge of the state of existing causal inference packages
+(egs. DoWhy, CausalNex, EconML)
+in python, including tradeoffs/benefits of packages not used for the implementation
+of the project.&lt;/li&gt;
+&lt;li&gt;Create a basic API for the pipeline using &lt;code&gt;fastapi&lt;/code&gt;. Verify that it works with
+tests. Keep it updated as the pipeline and data change.&lt;/li&gt;
+&lt;li&gt;Outcome: gain experience with API implementation and maintenence.&lt;/li&gt;
+&lt;li&gt;Develop a more advanced causal inference pipeline with a real world (or
+synthetic approximation) dataset and additional functionality.&lt;/li&gt;
+&lt;li&gt;Outcome: gain knowledge of causal inference techniques and results,
+research experience, and development experience.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;risks-and-mitigation-strategies&#34;&gt;Risks and Mitigation Strategies&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Overwhelming theoretical background&lt;/li&gt;
+&lt;li&gt;I will mitigate this by completing a &amp;ldquo;minimum viable&amp;rdquo; pipeline and API before
+implementing more advanced techniques.&lt;/li&gt;
+&lt;li&gt;Problems with data, verification of model performance, etc.&lt;/li&gt;
+&lt;li&gt;I will use a dataset that is tailored for this problem and has had prior
+research done on it rather than try to solve a novel problem.&lt;/li&gt;
+&lt;li&gt;Unforseen difficulty with API, testing, tools, etc.&lt;/li&gt;
+&lt;li&gt;As said above, I am not setting my research goals too high because I know that
+a large part of this project will be about learning methods and tools.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;assessments&#34;&gt;Assessments&lt;/h3&gt;
+&lt;p&gt;In addition to the weekly writeups, deliver:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;survey of causal reasoning python packages&lt;/li&gt;
+&lt;li&gt;causal inference pipeline developed with a complex real world or synthetic
+dataset&lt;/li&gt;
+&lt;li&gt;working API access to pipeline with documentation&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
       <title>Week 2 Update</title>
       <link>https://leonorae.github.io/posts/week-2-update/</link>
       <pubDate>Thu, 11 Sep 2025 17:42:21 -0500</pubDate>
