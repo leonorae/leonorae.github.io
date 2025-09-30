@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Terminal</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://leonorae.github.io/posts/</link>
     <description>Recent content in Posts on Terminal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 11 Sep 2025 17:42:21 -0500</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Sep 2025 17:42:21 -0500</lastBuildDate><atom:link href="https://leonorae.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Week 2 Update</title>
-      <link>http://localhost:1313/posts/week-2-update/</link>
+      <link>https://leonorae.github.io/posts/week-2-update/</link>
       <pubDate>Thu, 11 Sep 2025 17:42:21 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/week-2-update/</guid>
+      <guid>https://leonorae.github.io/posts/week-2-update/</guid>
       <description>&lt;p&gt;This week I worked on conceptualizing a project idea, setting up my personal website, and researching the current state of causal inference techniques and libraries. My main struggle with finding a project has been balancing my desire to do open-ended research with the need to create a tangible result which demonstrates my skills. In my introduction post I mentioned my interest in causality, and Professor Guinn suggested a project to create a causal inference pipeline with a library such as DoWhy or CausalNex with a public dataset and make it available as an API-based web service.&lt;/p&gt;</description>
       <content>&lt;p&gt;This week I worked on conceptualizing a project idea, setting up my personal website, and researching the current state of causal inference techniques and libraries. My main struggle with finding a project has been balancing my desire to do open-ended research with the need to create a tangible result which demonstrates my skills. In my introduction post I mentioned my interest in causality, and Professor Guinn suggested a project to create a causal inference pipeline with a library such as DoWhy or CausalNex with a public dataset and make it available as an API-based web service.&lt;/p&gt;
 &lt;p&gt;I like this idea a lot, because it has a good balance of theoretical interest with practicality, as well as a balance of demonstrating/reinforcing skills I have acquired as part of this program with learning new ones. I have created similar models in the Machine Learning class, have used Flask in the Software Development class, etc. but I have not combined the two nor have I done extensive API design. I also like that the minimum viable product seems very attainable, which gives me space to do research on the side and really gain a deep understanding of how the model I create works and experiment with various parameters and techniques. I could also do something like extending the baseline functionality of the API with a natural language interface.&lt;/p&gt;
@@ -23,10 +23,10 @@
     
     <item>
       <title>Introduction</title>
-      <link>http://localhost:1313/posts/introduction/</link>
+      <link>https://leonorae.github.io/posts/introduction/</link>
       <pubDate>Thu, 11 Sep 2025 10:12:26 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/introduction/</guid>
+      <guid>https://leonorae.github.io/posts/introduction/</guid>
       <description>&lt;p&gt;This is the first post on my personal website for CSPB 3112.&lt;/p&gt;
 &lt;p&gt;I may add more to it later.&lt;/p&gt;</description>
       <content>&lt;p&gt;This is the first post on my personal website for CSPB 3112.&lt;/p&gt;
