@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Terminal</title>
-    <link>https://leonorae.github.io/</link>
-    <description>Recent content on Terminal</description>
+    <title>leonorae</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on leonorae</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 30 Sep 2025 17:57:25 -0500</lastBuildDate><atom:link href="https://leonorae.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Sep 2025 17:57:25 -0500</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>https://leonorae.github.io/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Tue, 30 Sep 2025 17:57:25 -0500</pubDate>
       
-      <guid>https://leonorae.github.io/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;
 &lt;p&gt;email: &lt;a href=&#34;mailto:leonora.goble@gmail.com&#34;&gt;leonora.goble@gmail.com&lt;/a&gt;
 &lt;a href=&#34;https://github.com/leonorae&#34;&gt;github&lt;/a&gt;
@@ -48,10 +48,10 @@
     
     <item>
       <title>Week 4 Update</title>
-      <link>https://leonorae.github.io/posts/week-4-update/</link>
+      <link>http://localhost:1313/posts/week-4-update/</link>
       <pubDate>Thu, 25 Sep 2025 18:06:52 -0500</pubDate>
       
-      <guid>https://leonorae.github.io/posts/week-4-update/</guid>
+      <guid>http://localhost:1313/posts/week-4-update/</guid>
       <description>&lt;p&gt;This week I:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;set up a repo and preliminary environment: &lt;a href=&#34;https://github.com/leonorae/enter-causal&#34;&gt;https://github.com/leonorae/enter-causal&lt;/a&gt;&lt;/li&gt;
@@ -96,10 +96,10 @@
     
     <item>
       <title>Project Proposal</title>
-      <link>https://leonorae.github.io/posts/project-proposal/</link>
+      <link>http://localhost:1313/posts/project-proposal/</link>
       <pubDate>Thu, 18 Sep 2025 18:41:10 -0500</pubDate>
       
-      <guid>https://leonorae.github.io/posts/project-proposal/</guid>
+      <guid>http://localhost:1313/posts/project-proposal/</guid>
       <description>&lt;h1 id=&#34;project-proposal&#34;&gt;Project Proposal&lt;/h1&gt;
 &lt;h2 id=&#34;causal-inference-pipeline-with-api&#34;&gt;Causal Inference Pipeline with API&lt;/h2&gt;
 &lt;h3 id=&#34;vision-statement&#34;&gt;Vision Statement&lt;/h3&gt;
@@ -176,10 +176,10 @@ dataset&lt;/li&gt;
     
     <item>
       <title>Week 3 Update</title>
-      <link>https://leonorae.github.io/posts/week-3-update/</link>
+      <link>http://localhost:1313/posts/week-3-update/</link>
       <pubDate>Thu, 18 Sep 2025 18:00:51 -0500</pubDate>
       
-      <guid>https://leonorae.github.io/posts/week-3-update/</guid>
+      <guid>http://localhost:1313/posts/week-3-update/</guid>
       <description>&lt;p&gt;I researched the available causal reasoning packages for Python, primarily DoWhy, CausalNex, EconML, as well as some preliminary research into more specialized packages such as scikit-uplift. I also researched available datasets related to the field. Most of the datasets are related to econometrics or medical outcomes, expectedly. I learned that some of the datasets available on PhysioNet require credentialled access, and I’m unsure if I would be able to (or if it would even be worth it) to acquire it for this class. I wrote and posted my project proposal.&lt;/p&gt;</description>
       <content>&lt;p&gt;I researched the available causal reasoning packages for Python, primarily DoWhy, CausalNex, EconML, as well as some preliminary research into more specialized packages such as scikit-uplift. I also researched available datasets related to the field. Most of the datasets are related to econometrics or medical outcomes, expectedly. I learned that some of the datasets available on PhysioNet require credentialled access, and I’m unsure if I would be able to (or if it would even be worth it) to acquire it for this class. I wrote and posted my project proposal.&lt;/p&gt;
 &lt;p&gt;My personal website is up at leonorae.github.io, but I need to add more of the required pages, which I will work on this week.&lt;/p&gt;
@@ -191,10 +191,10 @@ dataset&lt;/li&gt;
     
     <item>
       <title>Week 2 Update</title>
-      <link>https://leonorae.github.io/posts/week-2-update/</link>
+      <link>http://localhost:1313/posts/week-2-update/</link>
       <pubDate>Thu, 11 Sep 2025 17:42:21 -0500</pubDate>
       
-      <guid>https://leonorae.github.io/posts/week-2-update/</guid>
+      <guid>http://localhost:1313/posts/week-2-update/</guid>
       <description>&lt;p&gt;This week I worked on conceptualizing a project idea, setting up my personal website, and researching the current state of causal inference techniques and libraries. My main struggle with finding a project has been balancing my desire to do open-ended research with the need to create a tangible result which demonstrates my skills. In my introduction post I mentioned my interest in causality, and Professor Guinn suggested a project to create a causal inference pipeline with a library such as DoWhy or CausalNex with a public dataset and make it available as an API-based web service.&lt;/p&gt;</description>
       <content>&lt;p&gt;This week I worked on conceptualizing a project idea, setting up my personal website, and researching the current state of causal inference techniques and libraries. My main struggle with finding a project has been balancing my desire to do open-ended research with the need to create a tangible result which demonstrates my skills. In my introduction post I mentioned my interest in causality, and Professor Guinn suggested a project to create a causal inference pipeline with a library such as DoWhy or CausalNex with a public dataset and make it available as an API-based web service.&lt;/p&gt;
 &lt;p&gt;I like this idea a lot, because it has a good balance of theoretical interest with practicality, as well as a balance of demonstrating/reinforcing skills I have acquired as part of this program with learning new ones. I have created similar models in the Machine Learning class, have used Flask in the Software Development class, etc. but I have not combined the two nor have I done extensive API design. I also like that the minimum viable product seems very attainable, which gives me space to do research on the side and really gain a deep understanding of how the model I create works and experiment with various parameters and techniques. I could also do something like extending the baseline functionality of the API with a natural language interface.&lt;/p&gt;
@@ -205,10 +205,10 @@ dataset&lt;/li&gt;
     
     <item>
       <title>Introduction</title>
-      <link>https://leonorae.github.io/posts/introduction/</link>
+      <link>http://localhost:1313/posts/introduction/</link>
       <pubDate>Thu, 11 Sep 2025 10:12:26 -0500</pubDate>
       
-      <guid>https://leonorae.github.io/posts/introduction/</guid>
+      <guid>http://localhost:1313/posts/introduction/</guid>
       <description>&lt;p&gt;This is the first post on my personal website for CSPB 3112.&lt;/p&gt;
 &lt;p&gt;I may add more to it later.&lt;/p&gt;</description>
       <content>&lt;p&gt;This is the first post on my personal website for CSPB 3112.&lt;/p&gt;

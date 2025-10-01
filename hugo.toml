@@ -1,6 +1,6 @@
 baseURL = 'https://leonorae.github.io/'
 languageCode = 'en-us'
-title = 'leonorae'
+
 sectionPagesMenu = 'main'
 
 theme = 're-terminal'
