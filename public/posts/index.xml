@@ -6,33 +6,47 @@
     <description>Recent content in Posts on Terminal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 30 Sep 2025 18:00:51 -0500</lastBuildDate><atom:link href="https://leonorae.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Week 3 Update</title>
-      <link>https://leonorae.github.io/posts/week-3-update/</link>
-      <pubDate>Tue, 30 Sep 2025 18:00:51 -0500</pubDate>
-      
-      <guid>https://leonorae.github.io/posts/week-3-update/</guid>
-      <description>&lt;p&gt;I researched the available causal reasoning packages for Python, primarily DoWhy, CausalNex, EconML, as well as some preliminary research into more specialized packages such as scikit-uplift. I also researched available datasets related to the field. Most of the datasets are related to econometrics or medical outcomes, expectedly. I learned that some of the datasets available on PhysioNet require credentialled access, and I’m unsure if I would be able to (or if it would even be worth it) to acquire it for this class. I wrote and posted my project proposal.&lt;/p&gt;</description>
-      <content>&lt;p&gt;I researched the available causal reasoning packages for Python, primarily DoWhy, CausalNex, EconML, as well as some preliminary research into more specialized packages such as scikit-uplift. I also researched available datasets related to the field. Most of the datasets are related to econometrics or medical outcomes, expectedly. I learned that some of the datasets available on PhysioNet require credentialled access, and I’m unsure if I would be able to (or if it would even be worth it) to acquire it for this class. I wrote and posted my project proposal.&lt;/p&gt;
-&lt;p&gt;My personal website is up at leonorae.github.io, but I need to add more of the required pages, which I will work on this week.&lt;/p&gt;
-&lt;p&gt;This week I will also do some &amp;ldquo;hello world&amp;rdquo; type examples with the packages mentioned above as well as some groundwork theoretical research and present some examples from both in a post.&lt;/p&gt;
-&lt;p&gt;My main impediments at this time are organizational, I need to outline my time and schedule around heavy weeks in Systems.&lt;/p&gt;
-&lt;p&gt;I can improve my process this week by organizing my time in regards to working on my project and doing &amp;ldquo;logistical&amp;rdquo; things such as reflecting on my work in posts more efficiently.&lt;/p&gt;
-</content>
-    </item>
-    
+    <lastBuildDate>Thu, 25 Sep 2025 18:06:52 -0500</lastBuildDate><atom:link href="https://leonorae.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Week 4 Update</title>
       <link>https://leonorae.github.io/posts/week-4-update/</link>
       <pubDate>Thu, 25 Sep 2025 18:06:52 -0500</pubDate>
       
       <guid>https://leonorae.github.io/posts/week-4-update/</guid>
-      <description>&lt;h2 id=&#34;knowledge-update&#34;&gt;Knowledge Update&lt;/h2&gt;
-&lt;p&gt;I learned about the overall process of creating a causal model, estimation of causal effect, inference, refutation tests.&lt;/p&gt;
-&lt;p&gt;I learned that the &lt;a href=&#34;https://causalwizard.app/inference/article/causal-diagram&#34;&gt;causal diagram is essentially a prior assumption&lt;/a&gt; that is somewhat subjective. This reinforces my prior assumption that I should choose a relatively well understood, normalized, and simple dataset(s), because it would be difficult to generalize and construct complex causal models for domains I am speculating about.&lt;/p&gt;
-&lt;p&gt;I was very curious about the idea of &amp;ldquo;discovering&amp;rdquo; causal effects from essentially unstructured data, but I will assume that this is not a basic topic and leave it to research after this project has helped me to understand the basics.&lt;/p&gt;</description>
-      <content>&lt;h2 id=&#34;knowledge-update&#34;&gt;Knowledge Update&lt;/h2&gt;
+      <description>&lt;p&gt;This week I:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;set up a repo and preliminary environment: &lt;a href=&#34;https://github.com/leonorae/enter-causal&#34;&gt;https://github.com/leonorae/enter-causal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;while I have used venv and uv before, reinforced knowledge of environment setup with &lt;a href=&#34;https://medium.com/codecodecode/uv-virtualenv-direnv-a-fast-reproducible-python-workflow-with-envrc-36da47ce1f4b&#34;&gt;this post&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;gathered learning resources and learned high-level concepts of causal inference&lt;/li&gt;
+&lt;li&gt;collected a set of “canonical” datasets for possible use later&lt;/li&gt;
+&lt;li&gt;organized learning resources and notes, project goals and intermediate tasks, and detailed weekly plan, into a planning document&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Next week:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Complete dowhy tutorial and implement a minimal pipeline of my own with synthetic/simple data&lt;/li&gt;
+&lt;li&gt;Complete a basic fastapi inference endpoint &lt;/li&gt;
+&lt;li&gt;Write basic tests &lt;/li&gt;
+&lt;li&gt;Update and expand personal website, maybe an overview/intro article if time&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Process:&lt;/p&gt;</description>
+      <content>&lt;p&gt;This week I:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;set up a repo and preliminary environment: &lt;a href=&#34;https://github.com/leonorae/enter-causal&#34;&gt;https://github.com/leonorae/enter-causal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;while I have used venv and uv before, reinforced knowledge of environment setup with &lt;a href=&#34;https://medium.com/codecodecode/uv-virtualenv-direnv-a-fast-reproducible-python-workflow-with-envrc-36da47ce1f4b&#34;&gt;this post&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;gathered learning resources and learned high-level concepts of causal inference&lt;/li&gt;
+&lt;li&gt;collected a set of “canonical” datasets for possible use later&lt;/li&gt;
+&lt;li&gt;organized learning resources and notes, project goals and intermediate tasks, and detailed weekly plan, into a planning document&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Next week:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Complete dowhy tutorial and implement a minimal pipeline of my own with synthetic/simple data&lt;/li&gt;
+&lt;li&gt;Complete a basic fastapi inference endpoint &lt;/li&gt;
+&lt;li&gt;Write basic tests &lt;/li&gt;
+&lt;li&gt;Update and expand personal website, maybe an overview/intro article if time&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Process:&lt;/p&gt;
+&lt;p&gt;I was much more organized this week, and I feel like the project direction is clearer thanks to helpful feedback on my proposal. I need to follow my own advice of sticking to completing the set goal before going too far into research rabbitholes a little bit more, but next week’s goals are very tangible so it should be reasonably easy to complete them and still have time to brainstorm.&lt;/p&gt;
+&lt;h2 id=&#34;knowledge-update&#34;&gt;Knowledge Update&lt;/h2&gt;
 &lt;p&gt;I learned about the overall process of creating a causal model, estimation of causal effect, inference, refutation tests.&lt;/p&gt;
 &lt;p&gt;I learned that the &lt;a href=&#34;https://causalwizard.app/inference/article/causal-diagram&#34;&gt;causal diagram is essentially a prior assumption&lt;/a&gt; that is somewhat subjective. This reinforces my prior assumption that I should choose a relatively well understood, normalized, and simple dataset(s), because it would be difficult to generalize and construct complex causal models for domains I am speculating about.&lt;/p&gt;
 &lt;p&gt;I was very curious about the idea of &amp;ldquo;discovering&amp;rdquo; causal effects from essentially unstructured data, but I will assume that this is not a basic topic and leave it to research after this project has helped me to understand the basics.&lt;/p&gt;
@@ -118,6 +132,21 @@ a large part of this project will be about learning methods and tools.&lt;/li&gt
 dataset&lt;/li&gt;
 &lt;li&gt;working API access to pipeline with documentation&lt;/li&gt;
 &lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Week 3 Update</title>
+      <link>https://leonorae.github.io/posts/week-3-update/</link>
+      <pubDate>Thu, 18 Sep 2025 18:00:51 -0500</pubDate>
+      
+      <guid>https://leonorae.github.io/posts/week-3-update/</guid>
+      <description>&lt;p&gt;I researched the available causal reasoning packages for Python, primarily DoWhy, CausalNex, EconML, as well as some preliminary research into more specialized packages such as scikit-uplift. I also researched available datasets related to the field. Most of the datasets are related to econometrics or medical outcomes, expectedly. I learned that some of the datasets available on PhysioNet require credentialled access, and I’m unsure if I would be able to (or if it would even be worth it) to acquire it for this class. I wrote and posted my project proposal.&lt;/p&gt;</description>
+      <content>&lt;p&gt;I researched the available causal reasoning packages for Python, primarily DoWhy, CausalNex, EconML, as well as some preliminary research into more specialized packages such as scikit-uplift. I also researched available datasets related to the field. Most of the datasets are related to econometrics or medical outcomes, expectedly. I learned that some of the datasets available on PhysioNet require credentialled access, and I’m unsure if I would be able to (or if it would even be worth it) to acquire it for this class. I wrote and posted my project proposal.&lt;/p&gt;
+&lt;p&gt;My personal website is up at leonorae.github.io, but I need to add more of the required pages, which I will work on this week.&lt;/p&gt;
+&lt;p&gt;This week I will also do some &amp;ldquo;hello world&amp;rdquo; type examples with the packages mentioned above as well as some groundwork theoretical research and present some examples from both in a post.&lt;/p&gt;
+&lt;p&gt;My main impediments at this time are organizational, I need to outline my time and schedule around heavy weeks in Systems.&lt;/p&gt;
+&lt;p&gt;I can improve my process this week by organizing my time in regards to working on my project and doing &amp;ldquo;logistical&amp;rdquo; things such as reflecting on my work in posts more efficiently.&lt;/p&gt;
 </content>
     </item>
     
