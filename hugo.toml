@@ -1,6 +1,7 @@
 baseURL = 'https://leonorae.github.io/'
 languageCode = 'en-us'
 title = 'leonorae'
+sectionPagesMenu = 'main'
 
 theme = 're-terminal'
 
@@ -67,8 +68,8 @@ pagination.pagerSize = 5
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
-    subtitle = "A simple, retro theme for Hugo"
+    title = "leonorae"
+    subtitle = ""
     owner = ""
     keywords = ""
     copyright = ""
