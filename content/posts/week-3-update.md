@@ -1,6 +1,6 @@
 +++
 title = "Week 3 Update"
-date = "2025-09-30T18:00:51-05:00"
+date = "2025-09-18T18:00:51-05:00"
 author = ""
 authorTwitter = "" #do not include @
 cover = ""
