@@ -6,7 +6,106 @@
     <description>Recent content on leonorae</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 30 Sep 2025 17:57:25 -0500</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Oct 2025 19:35:05 -0500</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Causal Inference Datasets</title>
+      <link>http://localhost:1313/posts/causal-inference-datasets/</link>
+      <pubDate>Thu, 02 Oct 2025 19:35:05 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/causal-inference-datasets/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/rguo12/awesome-causality-data&#34;&gt;https://github.com/rguo12/awesome-causality-data&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/NickCH-K/causaldata&#34;&gt;https://github.com/NickCH-K/causaldata&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://shubhanshu.com/awesome-causality/#data&#34;&gt;https://shubhanshu.com/awesome-causality/#data&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/rguo12/awesome-causality-data&#34;&gt;https://github.com/rguo12/awesome-causality-data&lt;/a&gt;
+IHDP
+&lt;a href=&#34;https://webdav.tuebingen.mpg.de/cause-effect/&#34;&gt;https://webdav.tuebingen.mpg.de/cause-effect/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://physionet.org/content/?csrfmiddlewaretoken=TS39rkfz9QQuHbiIRQKl79U0uTd1RfkZhatNliC0OT0JQOlUCac762oAfFhSbaZG&amp;amp;csrfmiddlewaretoken=TS39rkfz9QQuHbiIRQKl79U0uTd1RfkZhatNliC0OT0JQOlUCac762oAfFhSbaZG&amp;amp;csrfmiddlewaretoken=TS39rkfz9QQuHbiIRQKl79U0uTd1RfkZhatNliC0OT0JQOlUCac762oAfFhSbaZG&amp;amp;topic=&amp;amp;orderby=relevance-desc&amp;amp;types=0&amp;amp;page=39&#34;&gt;https://physionet.org/content/?csrfmiddlewaretoken=TS39rkfz9QQuHbiIRQKl79U0uTd1RfkZhatNliC0OT0JQOlUCac762oAfFhSbaZG&amp;csrfmiddlewaretoken=TS39rkfz9QQuHbiIRQKl79U0uTd1RfkZhatNliC0OT0JQOlUCac762oAfFhSbaZG&amp;csrfmiddlewaretoken=TS39rkfz9QQuHbiIRQKl79U0uTd1RfkZhatNliC0OT0JQOlUCac762oAfFhSbaZG&amp;topic=&amp;orderby=relevance-desc&amp;types=0&amp;page=39&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;mimic-iv subsets (no credentials required)
+&lt;a href=&#34;https://physionet.org/content/mimic-iv-demo-meds/0.0.1/&#34;&gt;https://physionet.org/content/mimic-iv-demo-meds/0.0.1/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://physionet.org/content/mimic-iv-fhir-demo/2.1.0/&#34;&gt;https://physionet.org/content/mimic-iv-fhir-demo/2.1.0/&lt;/a&gt;&lt;/p&gt;</description>
+      <content>&lt;p&gt;&lt;a href=&#34;https://github.com/rguo12/awesome-causality-data&#34;&gt;https://github.com/rguo12/awesome-causality-data&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/NickCH-K/causaldata&#34;&gt;https://github.com/NickCH-K/causaldata&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://shubhanshu.com/awesome-causality/#data&#34;&gt;https://shubhanshu.com/awesome-causality/#data&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/rguo12/awesome-causality-data&#34;&gt;https://github.com/rguo12/awesome-causality-data&lt;/a&gt;
+IHDP
+&lt;a href=&#34;https://webdav.tuebingen.mpg.de/cause-effect/&#34;&gt;https://webdav.tuebingen.mpg.de/cause-effect/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://physionet.org/content/?csrfmiddlewaretoken=TS39rkfz9QQuHbiIRQKl79U0uTd1RfkZhatNliC0OT0JQOlUCac762oAfFhSbaZG&amp;amp;csrfmiddlewaretoken=TS39rkfz9QQuHbiIRQKl79U0uTd1RfkZhatNliC0OT0JQOlUCac762oAfFhSbaZG&amp;amp;csrfmiddlewaretoken=TS39rkfz9QQuHbiIRQKl79U0uTd1RfkZhatNliC0OT0JQOlUCac762oAfFhSbaZG&amp;amp;topic=&amp;amp;orderby=relevance-desc&amp;amp;types=0&amp;amp;page=39&#34;&gt;https://physionet.org/content/?csrfmiddlewaretoken=TS39rkfz9QQuHbiIRQKl79U0uTd1RfkZhatNliC0OT0JQOlUCac762oAfFhSbaZG&amp;csrfmiddlewaretoken=TS39rkfz9QQuHbiIRQKl79U0uTd1RfkZhatNliC0OT0JQOlUCac762oAfFhSbaZG&amp;csrfmiddlewaretoken=TS39rkfz9QQuHbiIRQKl79U0uTd1RfkZhatNliC0OT0JQOlUCac762oAfFhSbaZG&amp;topic=&amp;orderby=relevance-desc&amp;types=0&amp;page=39&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;mimic-iv subsets (no credentials required)
+&lt;a href=&#34;https://physionet.org/content/mimic-iv-demo-meds/0.0.1/&#34;&gt;https://physionet.org/content/mimic-iv-demo-meds/0.0.1/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://physionet.org/content/mimic-iv-fhir-demo/2.1.0/&#34;&gt;https://physionet.org/content/mimic-iv-fhir-demo/2.1.0/&lt;/a&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Causal Inference Package Comparison</title>
+      <link>http://localhost:1313/posts/causal-inference-package-comparison/</link>
+      <pubDate>Thu, 02 Oct 2025 18:34:23 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/causal-inference-package-comparison/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.pywhy.org/dowhy/v0.8/getting_started/comparison.html&#34;&gt;https://www.pywhy.org/dowhy/v0.8/getting_started/comparison.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://causalnex.readthedocs.io/en/latest/05_resources/05_faq.html#what-are-the-benefits-of-using-causalnex&#34;&gt;https://causalnex.readthedocs.io/en/latest/05_resources/05_faq.html#what-are-the-benefits-of-using-causalnex&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.pywhy.org/dowhy/v0.13/&#34;&gt;https://www.pywhy.org/dowhy/v0.13/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/mckinsey/causalnex&#34;&gt;https://github.com/mckinsey/causalnex&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;**** tigramite
+&lt;a href=&#34;https://jakobrunge.github.io/tigramite/&#34;&gt;https://jakobrunge.github.io/tigramite/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;**** scikit-uplift
+&lt;a href=&#34;https://www.uplift-modeling.com/en/latest/index.html&#34;&gt;https://www.uplift-modeling.com/en/latest/index.html&lt;/a&gt;&lt;/p&gt;</description>
+      <content>&lt;p&gt;&lt;a href=&#34;https://www.pywhy.org/dowhy/v0.8/getting_started/comparison.html&#34;&gt;https://www.pywhy.org/dowhy/v0.8/getting_started/comparison.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://causalnex.readthedocs.io/en/latest/05_resources/05_faq.html#what-are-the-benefits-of-using-causalnex&#34;&gt;https://causalnex.readthedocs.io/en/latest/05_resources/05_faq.html#what-are-the-benefits-of-using-causalnex&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.pywhy.org/dowhy/v0.13/&#34;&gt;https://www.pywhy.org/dowhy/v0.13/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/mckinsey/causalnex&#34;&gt;https://github.com/mckinsey/causalnex&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;**** tigramite
+&lt;a href=&#34;https://jakobrunge.github.io/tigramite/&#34;&gt;https://jakobrunge.github.io/tigramite/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;**** scikit-uplift
+&lt;a href=&#34;https://www.uplift-modeling.com/en/latest/index.html&#34;&gt;https://www.uplift-modeling.com/en/latest/index.html&lt;/a&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Causal Inference Learning Resources</title>
+      <link>http://localhost:1313/posts/causal-inference-learning-resources/</link>
+      <pubDate>Thu, 02 Oct 2025 15:19:25 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/causal-inference-learning-resources/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://matheusfacure.github.io/python-causality-handbook/landing-page.html&#34;&gt;Causal Inference for The Brave and True&lt;/a&gt;
+by Matheus Facure Alves&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://miguelhernan.org/whatifbook&#34;&gt;https://miguelhernan.org/whatifbook&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://mitp-content-server.mit.edu/books/content/sectbyfn?collid=books_pres_0&amp;amp;id=11283&amp;amp;fn=11283.pdf&#34;&gt;https://mitp-content-server.mit.edu/books/content/sectbyfn?collid=books_pres_0&amp;id=11283&amp;fn=11283.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://thedecisionlab.com/reference-guide/statistics/casual-inference&#34;&gt;https://thedecisionlab.com/reference-guide/statistics/casual-inference&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://causalml-book.org/&#34;&gt;https://causalml-book.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://shubhanshu.com/awesome-causality/&#34;&gt;https://shubhanshu.com/awesome-causality/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;in-python&#34;&gt;in Python&lt;/h2&gt;
+&lt;p&gt;*** Resources
+&lt;a href=&#34;https://www.pywhy.org/&#34;&gt;https://www.pywhy.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://causalwizard.app/inference/categories/&#34;&gt;https://causalwizard.app/inference/categories/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://causalnex.readthedocs.io/en/latest/index.html&#34;&gt;https://causalnex.readthedocs.io/en/latest/index.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.pywhy.org/dowhy/v0.11.1/index.html&#34;&gt;https://www.pywhy.org/dowhy/v0.11.1/index.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.pywhy.org/EconML/&#34;&gt;https://www.pywhy.org/EconML/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://causeme.uv.es/&#34;&gt;https://causeme.uv.es/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;uplift modeling, recent ML methods
+&lt;a href=&#34;https://github.com/uber/causalml&#34;&gt;https://github.com/uber/causalml&lt;/a&gt;
+&lt;a href=&#34;https://causalml.readthedocs.io/en/latest/about.html&#34;&gt;https://causalml.readthedocs.io/en/latest/about.html&lt;/a&gt;&lt;/p&gt;</description>
+      <content>&lt;p&gt;&lt;a href=&#34;https://matheusfacure.github.io/python-causality-handbook/landing-page.html&#34;&gt;Causal Inference for The Brave and True&lt;/a&gt;
+by Matheus Facure Alves&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://miguelhernan.org/whatifbook&#34;&gt;https://miguelhernan.org/whatifbook&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://mitp-content-server.mit.edu/books/content/sectbyfn?collid=books_pres_0&amp;amp;id=11283&amp;amp;fn=11283.pdf&#34;&gt;https://mitp-content-server.mit.edu/books/content/sectbyfn?collid=books_pres_0&amp;id=11283&amp;fn=11283.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://thedecisionlab.com/reference-guide/statistics/casual-inference&#34;&gt;https://thedecisionlab.com/reference-guide/statistics/casual-inference&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://causalml-book.org/&#34;&gt;https://causalml-book.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://shubhanshu.com/awesome-causality/&#34;&gt;https://shubhanshu.com/awesome-causality/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;in-python&#34;&gt;in Python&lt;/h2&gt;
+&lt;p&gt;*** Resources
+&lt;a href=&#34;https://www.pywhy.org/&#34;&gt;https://www.pywhy.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://causalwizard.app/inference/categories/&#34;&gt;https://causalwizard.app/inference/categories/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://causalnex.readthedocs.io/en/latest/index.html&#34;&gt;https://causalnex.readthedocs.io/en/latest/index.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.pywhy.org/dowhy/v0.11.1/index.html&#34;&gt;https://www.pywhy.org/dowhy/v0.11.1/index.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.pywhy.org/EconML/&#34;&gt;https://www.pywhy.org/EconML/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://causeme.uv.es/&#34;&gt;https://causeme.uv.es/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;uplift modeling, recent ML methods
+&lt;a href=&#34;https://github.com/uber/causalml&#34;&gt;https://github.com/uber/causalml&lt;/a&gt;
+&lt;a href=&#34;https://causalml.readthedocs.io/en/latest/about.html&#34;&gt;https://causalml.readthedocs.io/en/latest/about.html&lt;/a&gt;&lt;/p&gt;
+</content>
+    </item>
+    
     <item>
       <title>About</title>
       <link>http://localhost:1313/about/</link>
