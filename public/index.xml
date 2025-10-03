@@ -36,8 +36,7 @@
 &lt;li&gt;create structured learning plan (identify vital/fundamental study topics)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;impediments&#34;&gt;Impediments&lt;/h3&gt;
-&lt;p&gt;I spent more time than I expected with the
-I ran into a seemingly unresolvable dependency issue between CausalNex and DoWhy. I have decided to leave causalnex to the side for now, as dowhy seems more useful and important to understand. I will still investigate it in a different virtual environment and write some of my thoughts on how it compares to dowhy, but I will use this as an opportunity to focus the scope of my project.&lt;/p&gt;</description>
+&lt;p&gt;I spent more time than I expected to with the venv setup and dependency problems, but this was a good opportunity to learn more about eg. setting up a pyproject.toml file. I ran into a seemingly unresolvable dependency issue between CausalNex and DoWhy. I have decided to leave causalnex to the side for now, as dowhy seems more useful and important to understand. I will still investigate it in a different virtual environment and write some of my thoughts on how it compares to dowhy, but I will use this as an opportunity to focus the scope of my project.&lt;/p&gt;</description>
       <content>&lt;h3 id=&#34;this-week&#34;&gt;This Week&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;I created a basic inference pipeline with the DoWhy tutorial&lt;/li&gt;
@@ -61,8 +60,7 @@ I ran into a seemingly unresolvable dependency issue between CausalNex and DoWhy
 &lt;li&gt;create structured learning plan (identify vital/fundamental study topics)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;impediments&#34;&gt;Impediments&lt;/h3&gt;
-&lt;p&gt;I spent more time than I expected with the
-I ran into a seemingly unresolvable dependency issue between CausalNex and DoWhy. I have decided to leave causalnex to the side for now, as dowhy seems more useful and important to understand. I will still investigate it in a different virtual environment and write some of my thoughts on how it compares to dowhy, but I will use this as an opportunity to focus the scope of my project.&lt;/p&gt;
+&lt;p&gt;I spent more time than I expected to with the venv setup and dependency problems, but this was a good opportunity to learn more about eg. setting up a pyproject.toml file. I ran into a seemingly unresolvable dependency issue between CausalNex and DoWhy. I have decided to leave causalnex to the side for now, as dowhy seems more useful and important to understand. I will still investigate it in a different virtual environment and write some of my thoughts on how it compares to dowhy, but I will use this as an opportunity to focus the scope of my project.&lt;/p&gt;
 &lt;p&gt;As I expected, the subject matter is complex and fully understanding all of the material within the semester is not feasible. I spent a lot of time this week in introductory subject material, I believe this was a good idea because of the importance of fundamental knowledge, but it is not sustainable to treat this project like a full causal inference class. My structured learning plan will help me stay focused and only devote significant time to learning things I really need to understand for this project.&lt;/p&gt;
 &lt;h3 id=&#34;process&#34;&gt;Process&lt;/h3&gt;
 &lt;p&gt;I feel better and better about my process as I become more organized and the scope narrows. I still need to define the endpoint of my project more, but I think that will be very possible this week. I think this week I will dive into the code a bit more before reading too much theory and try to &amp;ldquo;backfill&amp;rdquo; my understanding after implementing something to avoid getting stuck trying to fully understand something&amp;rsquo;s implementation details.&lt;/p&gt;

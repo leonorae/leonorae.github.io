@@ -32,8 +32,7 @@ color = "" #color from the theme settings
 - create structured learning plan (identify vital/fundamental study topics)
 
 ### Impediments
-I spent more time than I expected with the 
-I ran into a seemingly unresolvable dependency issue between CausalNex and DoWhy. I have decided to leave causalnex to the side for now, as dowhy seems more useful and important to understand. I will still investigate it in a different virtual environment and write some of my thoughts on how it compares to dowhy, but I will use this as an opportunity to focus the scope of my project.
+I spent more time than I expected to with the venv setup and dependency problems, but this was a good opportunity to learn more about eg. setting up a pyproject.toml file. I ran into a seemingly unresolvable dependency issue between CausalNex and DoWhy. I have decided to leave causalnex to the side for now, as dowhy seems more useful and important to understand. I will still investigate it in a different virtual environment and write some of my thoughts on how it compares to dowhy, but I will use this as an opportunity to focus the scope of my project.
 
 As I expected, the subject matter is complex and fully understanding all of the material within the semester is not feasible. I spent a lot of time this week in introductory subject material, I believe this was a good idea because of the importance of fundamental knowledge, but it is not sustainable to treat this project like a full causal inference class. My structured learning plan will help me stay focused and only devote significant time to learning things I really need to understand for this project.
 
