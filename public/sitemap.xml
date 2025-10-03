@@ -2,41 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/causal-inference-datasets/</loc>
+    <loc>https://leonorae.github.io/</loc>
+    <lastmod>2025-10-02T20:57:45-05:00</lastmod>
+  </url><url>
+    <loc>https://leonorae.github.io/posts/</loc>
+    <lastmod>2025-10-02T20:57:45-05:00</lastmod>
+  </url><url>
+    <loc>https://leonorae.github.io/posts/week-5-update/</loc>
+    <lastmod>2025-10-02T20:57:45-05:00</lastmod>
+  </url><url>
+    <loc>https://leonorae.github.io/posts/causal-inference-datasets/</loc>
     <lastmod>2025-10-02T19:35:05-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-10-02T19:35:05-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-10-02T19:35:05-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/causal-inference-package-comparison/</loc>
+    <loc>https://leonorae.github.io/posts/causal-inference-package-comparison/</loc>
     <lastmod>2025-10-02T18:34:23-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/causal-inference-learning-resources/</loc>
+    <loc>https://leonorae.github.io/posts/causal-inference-learning-resources/</loc>
     <lastmod>2025-10-02T15:19:25-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://leonorae.github.io/about/</loc>
     <lastmod>2025-09-30T17:57:25-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/week-4-update/</loc>
+    <loc>https://leonorae.github.io/posts/week-4-update/</loc>
     <lastmod>2025-09-25T18:06:52-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/project-proposal/</loc>
+    <loc>https://leonorae.github.io/posts/project-proposal/</loc>
     <lastmod>2025-09-18T18:41:10-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/week-3-update/</loc>
+    <loc>https://leonorae.github.io/posts/week-3-update/</loc>
     <lastmod>2025-09-18T18:00:51-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/week-2-update/</loc>
+    <loc>https://leonorae.github.io/posts/week-2-update/</loc>
     <lastmod>2025-09-11T17:42:21-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/introduction/</loc>
+    <loc>https://leonorae.github.io/posts/introduction/</loc>
     <lastmod>2025-09-11T10:12:26-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://leonorae.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://leonorae.github.io/tags/</loc>
   </url>
 </urlset>
