@@ -143,6 +143,59 @@
     
       <article class="post on-list">
         <h1 class="post-title">
+          <a href="https://leonorae.github.io/posts/week-6-update/">Week 6 Update</a>
+        </h1>
+        <div class="post-meta"><time class="post-date">2025-10-09</time>
+          
+
+        </div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="https://leonorae.github.io/tags/"></a>&nbsp;
+            
+            #<a href="https://leonorae.github.io/tags/"></a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+
+        <div class="post-content">
+          
+            <h1 id="week-6-update">Week 6 Update</h1>
+<h2 id="this-week">This Week</h2>
+<ul>
+<li>Decided on pytest for testing framework. Refamiliarized self with pytest and created initial test stub.</li>
+<li>Refined scope of project to basic inference topics with a focus on causal discovery methods</li>
+<li>Began design of discovery API with plans for data validation with Pydantic</li>
+<li>Implementated basic discovery method for data pairs (ie. given the assumption that one variable is causal and one is an effect, which one is which? and give measures of certainty)</li>
+<li>Added to learning resources page</li>
+</ul>
+<h2 id="next-week">Next Week</h2>
+<ul>
+<li>experiment with causal discovery algorithms on more complex datasets</li>
+<li>formalize API design more and begin documentation</li>
+<li>add more methods/library choices to API</li>
+<li>write more extensive tests</li>
+</ul>
+<h2 id="impediments-and-process">Impediments and Process</h2>
+<p>I got more done this week by focusing on learning about high-level practical tasks above theoretical knowledge or implementation details. I do feel as though I lack some understanding of the things I implemented through library APIs, so I would not really feel confident asserting anything in particular about the results I am acheiving. I do feel like this is worthwhile though, as having a tangible program starting to take shape acts as motivation to go back and learn in more detail what it is doing and how I can refine and improve the results.</p>
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button" href="/posts/week-6-update/"> →</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title">
           <a href="https://leonorae.github.io/posts/week-5-update/">Week 5 Update</a>
         </h1>
         <div class="post-meta"><time class="post-date">2025-10-02</time>
@@ -313,13 +366,16 @@ IHDP
 
         <div class="post-content">
           
-            <p><a href="https://matheusfacure.github.io/python-causality-handbook/landing-page.html">Causal Inference for The Brave and True</a>
+            <h2 id="conceptual">conceptual</h2>
+<h3 id="introductory">introductory</h3>
+<p>this has good visualizations <a href="https://www.inference.vc/causal-inference-2-illustrating-interventions-in-a-toy-example/">https://www.inference.vc/causal-inference-2-illustrating-interventions-in-a-toy-example/</a></p>
+<p><a href="https://thedecisionlab.com/reference-guide/statistics/casual-inference">https://thedecisionlab.com/reference-guide/statistics/casual-inference</a></p>
+<h3 id="books">books</h3>
+<p><a href="https://matheusfacure.github.io/python-causality-handbook/landing-page.html">Causal Inference for The Brave and True</a>
 by Matheus Facure Alves</p>
 <p><a href="https://miguelhernan.org/whatifbook">https://miguelhernan.org/whatifbook</a></p>
 <p><a href="https://mitp-content-server.mit.edu/books/content/sectbyfn?collid=books_pres_0&amp;id=11283&amp;fn=11283.pdf">https://mitp-content-server.mit.edu/books/content/sectbyfn?collid=books_pres_0&id=11283&fn=11283.pdf</a></p>
-<p><a href="https://thedecisionlab.com/reference-guide/statistics/casual-inference">https://thedecisionlab.com/reference-guide/statistics/casual-inference</a></p>
 <p><a href="https://causalml-book.org/">https://causalml-book.org/</a></p>
-<p><a href="https://shubhanshu.com/awesome-causality/">https://shubhanshu.com/awesome-causality/</a></p>
 <h2 id="in-python">in Python</h2>
 <p>*** Resources
 <a href="https://www.pywhy.org/">https://www.pywhy.org/</a></p>
@@ -331,63 +387,14 @@ by Matheus Facure Alves</p>
 <p>uplift modeling, recent ML methods
 <a href="https://github.com/uber/causalml">https://github.com/uber/causalml</a>
 <a href="https://causalml.readthedocs.io/en/latest/about.html">https://causalml.readthedocs.io/en/latest/about.html</a></p>
+<h2 id="sources-and-other-resource-compilations">sources and other resource compilations</h2>
+<p><a href="https://shubhanshu.com/awesome-causality/">https://shubhanshu.com/awesome-causality/</a></p>
           
         </div>
 
         
           <div>
             <a class="read-more button" href="/posts/causal-inference-learning-resources/"> →</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h1 class="post-title">
-          <a href="https://leonorae.github.io/posts/week-4-update/">Week 4 Update</a>
-        </h1>
-        <div class="post-meta"><time class="post-date">2025-09-25</time>
-          
-
-        </div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="https://leonorae.github.io/tags/"></a>&nbsp;
-            
-            #<a href="https://leonorae.github.io/tags/"></a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-
-        <div class="post-content">
-          
-            <p>This week I:</p>
-<ul>
-<li>set up a repo and preliminary environment: <a href="https://github.com/leonorae/enter-causal">https://github.com/leonorae/enter-causal</a></li>
-<li>while I have used venv and uv before, reinforced knowledge of environment setup with <a href="https://medium.com/codecodecode/uv-virtualenv-direnv-a-fast-reproducible-python-workflow-with-envrc-36da47ce1f4b">this post</a></li>
-<li>gathered learning resources and learned high-level concepts of causal inference</li>
-<li>collected a set of “canonical” datasets for possible use later</li>
-<li>organized learning resources and notes, project goals and intermediate tasks, and detailed weekly plan, into a planning document</li>
-</ul>
-<p>Next week:</p>
-<ul>
-<li>Complete dowhy tutorial and implement a minimal pipeline of my own with synthetic/simple data</li>
-<li>Complete a basic fastapi inference endpoint </li>
-<li>Write basic tests </li>
-<li>Update and expand personal website, maybe an overview/intro article if time</li>
-</ul>
-<p>Process:</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button" href="/posts/week-4-update/"> →</a>
           </div>
         
       </article>

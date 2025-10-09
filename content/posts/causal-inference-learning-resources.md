@@ -14,6 +14,13 @@ hideComments = false
 color = "" #color from the theme settings
 +++
 
+## conceptual
+### introductory
+this has good visualizations https://www.inference.vc/causal-inference-2-illustrating-interventions-in-a-toy-example/
+
+https://thedecisionlab.com/reference-guide/statistics/casual-inference
+
+### books
 [Causal Inference for The Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html)
 by Matheus Facure Alves
 
@@ -21,11 +28,9 @@ https://miguelhernan.org/whatifbook
 
 https://mitp-content-server.mit.edu/books/content/sectbyfn?collid=books_pres_0&id=11283&fn=11283.pdf
 
-https://thedecisionlab.com/reference-guide/statistics/casual-inference
-
 https://causalml-book.org/
 
-https://shubhanshu.com/awesome-causality/
+
 
 ## in Python
 *** Resources
@@ -44,3 +49,6 @@ https://causeme.uv.es/
 uplift modeling, recent ML methods
 https://github.com/uber/causalml
 https://causalml.readthedocs.io/en/latest/about.html
+
+## sources and other resource compilations
+https://shubhanshu.com/awesome-causality/

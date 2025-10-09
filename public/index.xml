@@ -6,7 +6,52 @@
     <description>Recent content on leonorae</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 02 Oct 2025 20:57:45 -0500</lastBuildDate><atom:link href="https://leonorae.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Oct 2025 17:03:17 -0500</lastBuildDate><atom:link href="https://leonorae.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 6 Update</title>
+      <link>https://leonorae.github.io/posts/week-6-update/</link>
+      <pubDate>Thu, 09 Oct 2025 17:03:17 -0500</pubDate>
+      
+      <guid>https://leonorae.github.io/posts/week-6-update/</guid>
+      <description>&lt;h1 id=&#34;week-6-update&#34;&gt;Week 6 Update&lt;/h1&gt;
+&lt;h2 id=&#34;this-week&#34;&gt;This Week&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Decided on pytest for testing framework. Refamiliarized self with pytest and created initial test stub.&lt;/li&gt;
+&lt;li&gt;Refined scope of project to basic inference topics with a focus on causal discovery methods&lt;/li&gt;
+&lt;li&gt;Began design of discovery API with plans for data validation with Pydantic&lt;/li&gt;
+&lt;li&gt;Implementated basic discovery method for data pairs (ie. given the assumption that one variable is causal and one is an effect, which one is which? and give measures of certainty)&lt;/li&gt;
+&lt;li&gt;Added to learning resources page&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;next-week&#34;&gt;Next Week&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;experiment with causal discovery algorithms on more complex datasets&lt;/li&gt;
+&lt;li&gt;formalize API design more and begin documentation&lt;/li&gt;
+&lt;li&gt;add more methods/library choices to API&lt;/li&gt;
+&lt;li&gt;write more extensive tests&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;impediments-and-process&#34;&gt;Impediments and Process&lt;/h2&gt;
+&lt;p&gt;I got more done this week by focusing on learning about high-level practical tasks above theoretical knowledge or implementation details. I do feel as though I lack some understanding of the things I implemented through library APIs, so I would not really feel confident asserting anything in particular about the results I am acheiving. I do feel like this is worthwhile though, as having a tangible program starting to take shape acts as motivation to go back and learn in more detail what it is doing and how I can refine and improve the results.&lt;/p&gt;</description>
+      <content>&lt;h1 id=&#34;week-6-update&#34;&gt;Week 6 Update&lt;/h1&gt;
+&lt;h2 id=&#34;this-week&#34;&gt;This Week&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Decided on pytest for testing framework. Refamiliarized self with pytest and created initial test stub.&lt;/li&gt;
+&lt;li&gt;Refined scope of project to basic inference topics with a focus on causal discovery methods&lt;/li&gt;
+&lt;li&gt;Began design of discovery API with plans for data validation with Pydantic&lt;/li&gt;
+&lt;li&gt;Implementated basic discovery method for data pairs (ie. given the assumption that one variable is causal and one is an effect, which one is which? and give measures of certainty)&lt;/li&gt;
+&lt;li&gt;Added to learning resources page&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;next-week&#34;&gt;Next Week&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;experiment with causal discovery algorithms on more complex datasets&lt;/li&gt;
+&lt;li&gt;formalize API design more and begin documentation&lt;/li&gt;
+&lt;li&gt;add more methods/library choices to API&lt;/li&gt;
+&lt;li&gt;write more extensive tests&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;impediments-and-process&#34;&gt;Impediments and Process&lt;/h2&gt;
+&lt;p&gt;I got more done this week by focusing on learning about high-level practical tasks above theoretical knowledge or implementation details. I do feel as though I lack some understanding of the things I implemented through library APIs, so I would not really feel confident asserting anything in particular about the results I am acheiving. I do feel like this is worthwhile though, as having a tangible program starting to take shape acts as motivation to go back and learn in more detail what it is doing and how I can refine and improve the results.&lt;/p&gt;
+</content>
+    </item>
+    
     <item>
       <title>Week 5 Update</title>
       <link>https://leonorae.github.io/posts/week-5-update/</link>
@@ -127,31 +172,16 @@ IHDP
       <pubDate>Thu, 02 Oct 2025 15:19:25 -0500</pubDate>
       
       <guid>https://leonorae.github.io/posts/causal-inference-learning-resources/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://matheusfacure.github.io/python-causality-handbook/landing-page.html&#34;&gt;Causal Inference for The Brave and True&lt;/a&gt;
+      <description>&lt;h2 id=&#34;conceptual&#34;&gt;conceptual&lt;/h2&gt;
+&lt;h3 id=&#34;introductory&#34;&gt;introductory&lt;/h3&gt;
+&lt;p&gt;this has good visualizations &lt;a href=&#34;https://www.inference.vc/causal-inference-2-illustrating-interventions-in-a-toy-example/&#34;&gt;https://www.inference.vc/causal-inference-2-illustrating-interventions-in-a-toy-example/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://thedecisionlab.com/reference-guide/statistics/casual-inference&#34;&gt;https://thedecisionlab.com/reference-guide/statistics/casual-inference&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;books&#34;&gt;books&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://matheusfacure.github.io/python-causality-handbook/landing-page.html&#34;&gt;Causal Inference for The Brave and True&lt;/a&gt;
 by Matheus Facure Alves&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://miguelhernan.org/whatifbook&#34;&gt;https://miguelhernan.org/whatifbook&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://mitp-content-server.mit.edu/books/content/sectbyfn?collid=books_pres_0&amp;amp;id=11283&amp;amp;fn=11283.pdf&#34;&gt;https://mitp-content-server.mit.edu/books/content/sectbyfn?collid=books_pres_0&amp;id=11283&amp;fn=11283.pdf&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://thedecisionlab.com/reference-guide/statistics/casual-inference&#34;&gt;https://thedecisionlab.com/reference-guide/statistics/casual-inference&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://causalml-book.org/&#34;&gt;https://causalml-book.org/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://shubhanshu.com/awesome-causality/&#34;&gt;https://shubhanshu.com/awesome-causality/&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;in-python&#34;&gt;in Python&lt;/h2&gt;
-&lt;p&gt;*** Resources
-&lt;a href=&#34;https://www.pywhy.org/&#34;&gt;https://www.pywhy.org/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://causalwizard.app/inference/categories/&#34;&gt;https://causalwizard.app/inference/categories/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://causalnex.readthedocs.io/en/latest/index.html&#34;&gt;https://causalnex.readthedocs.io/en/latest/index.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.pywhy.org/dowhy/v0.11.1/index.html&#34;&gt;https://www.pywhy.org/dowhy/v0.11.1/index.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.pywhy.org/EconML/&#34;&gt;https://www.pywhy.org/EconML/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://causeme.uv.es/&#34;&gt;https://causeme.uv.es/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;uplift modeling, recent ML methods
-&lt;a href=&#34;https://github.com/uber/causalml&#34;&gt;https://github.com/uber/causalml&lt;/a&gt;
-&lt;a href=&#34;https://causalml.readthedocs.io/en/latest/about.html&#34;&gt;https://causalml.readthedocs.io/en/latest/about.html&lt;/a&gt;&lt;/p&gt;</description>
-      <content>&lt;p&gt;&lt;a href=&#34;https://matheusfacure.github.io/python-causality-handbook/landing-page.html&#34;&gt;Causal Inference for The Brave and True&lt;/a&gt;
-by Matheus Facure Alves&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://miguelhernan.org/whatifbook&#34;&gt;https://miguelhernan.org/whatifbook&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://mitp-content-server.mit.edu/books/content/sectbyfn?collid=books_pres_0&amp;amp;id=11283&amp;amp;fn=11283.pdf&#34;&gt;https://mitp-content-server.mit.edu/books/content/sectbyfn?collid=books_pres_0&amp;id=11283&amp;fn=11283.pdf&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://thedecisionlab.com/reference-guide/statistics/casual-inference&#34;&gt;https://thedecisionlab.com/reference-guide/statistics/casual-inference&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://causalml-book.org/&#34;&gt;https://causalml-book.org/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://shubhanshu.com/awesome-causality/&#34;&gt;https://shubhanshu.com/awesome-causality/&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;in-python&#34;&gt;in Python&lt;/h2&gt;
 &lt;p&gt;*** Resources
 &lt;a href=&#34;https://www.pywhy.org/&#34;&gt;https://www.pywhy.org/&lt;/a&gt;&lt;/p&gt;
@@ -163,6 +193,31 @@ by Matheus Facure Alves&lt;/p&gt;
 &lt;p&gt;uplift modeling, recent ML methods
 &lt;a href=&#34;https://github.com/uber/causalml&#34;&gt;https://github.com/uber/causalml&lt;/a&gt;
 &lt;a href=&#34;https://causalml.readthedocs.io/en/latest/about.html&#34;&gt;https://causalml.readthedocs.io/en/latest/about.html&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sources-and-other-resource-compilations&#34;&gt;sources and other resource compilations&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://shubhanshu.com/awesome-causality/&#34;&gt;https://shubhanshu.com/awesome-causality/&lt;/a&gt;&lt;/p&gt;</description>
+      <content>&lt;h2 id=&#34;conceptual&#34;&gt;conceptual&lt;/h2&gt;
+&lt;h3 id=&#34;introductory&#34;&gt;introductory&lt;/h3&gt;
+&lt;p&gt;this has good visualizations &lt;a href=&#34;https://www.inference.vc/causal-inference-2-illustrating-interventions-in-a-toy-example/&#34;&gt;https://www.inference.vc/causal-inference-2-illustrating-interventions-in-a-toy-example/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://thedecisionlab.com/reference-guide/statistics/casual-inference&#34;&gt;https://thedecisionlab.com/reference-guide/statistics/casual-inference&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;books&#34;&gt;books&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://matheusfacure.github.io/python-causality-handbook/landing-page.html&#34;&gt;Causal Inference for The Brave and True&lt;/a&gt;
+by Matheus Facure Alves&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://miguelhernan.org/whatifbook&#34;&gt;https://miguelhernan.org/whatifbook&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://mitp-content-server.mit.edu/books/content/sectbyfn?collid=books_pres_0&amp;amp;id=11283&amp;amp;fn=11283.pdf&#34;&gt;https://mitp-content-server.mit.edu/books/content/sectbyfn?collid=books_pres_0&amp;id=11283&amp;fn=11283.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://causalml-book.org/&#34;&gt;https://causalml-book.org/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;in-python&#34;&gt;in Python&lt;/h2&gt;
+&lt;p&gt;*** Resources
+&lt;a href=&#34;https://www.pywhy.org/&#34;&gt;https://www.pywhy.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://causalwizard.app/inference/categories/&#34;&gt;https://causalwizard.app/inference/categories/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://causalnex.readthedocs.io/en/latest/index.html&#34;&gt;https://causalnex.readthedocs.io/en/latest/index.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.pywhy.org/dowhy/v0.11.1/index.html&#34;&gt;https://www.pywhy.org/dowhy/v0.11.1/index.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.pywhy.org/EconML/&#34;&gt;https://www.pywhy.org/EconML/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://causeme.uv.es/&#34;&gt;https://causeme.uv.es/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;uplift modeling, recent ML methods
+&lt;a href=&#34;https://github.com/uber/causalml&#34;&gt;https://github.com/uber/causalml&lt;/a&gt;
+&lt;a href=&#34;https://causalml.readthedocs.io/en/latest/about.html&#34;&gt;https://causalml.readthedocs.io/en/latest/about.html&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sources-and-other-resource-compilations&#34;&gt;sources and other resource compilations&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://shubhanshu.com/awesome-causality/&#34;&gt;https://shubhanshu.com/awesome-causality/&lt;/a&gt;&lt;/p&gt;
 </content>
     </item>
     
