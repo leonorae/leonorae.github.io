@@ -20,20 +20,30 @@ this has good visualizations https://www.inference.vc/causal-inference-2-illustr
 
 https://thedecisionlab.com/reference-guide/statistics/casual-inference
 
-### books
-[Causal Inference for The Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html)
-by Matheus Facure Alves
+### Pairs
+[ChaLearn ​Cause Effect Pairs in Machine Learning](https://causality.chalearn.org/experimental-design)
 
-https://miguelhernan.org/whatifbook
+### Books and Collections
+#### [Causality -- Judea Pearl](https://bayes.cs.ucla.edu/BOOK-2K/)
+Judea Pearl is one of the best known pioneers of causality theory. He has written many of the canonical papers and books related to the field as well as other forms of probablistic reasoning in intelligent systems.
+
+#### [Causal Inference for The Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html) -- Matheus Facure Alves
+
+#### [What If?](https://miguelhernan.org/whatifbook)
 
 https://mitp-content-server.mit.edu/books/content/sectbyfn?collid=books_pres_0&id=11283&fn=11283.pdf
 
 https://causalml-book.org/
 
+[ChaLearn Books](https://causality.chalearn.org/causality-books)
+
 
 
 ## in Python
-*** Resources
+### Introductory
+https://www.datacamp.com/tutorial/intro-to-causal-ai-using-the-dowhy-library-in-python
+
+### Resources
 https://www.pywhy.org/
 
 https://causalwizard.app/inference/categories/
@@ -50,5 +60,5 @@ uplift modeling, recent ML methods
 https://github.com/uber/causalml
 https://causalml.readthedocs.io/en/latest/about.html
 
-## sources and other resource compilations
+### sources and other resource compilations
 https://shubhanshu.com/awesome-causality/

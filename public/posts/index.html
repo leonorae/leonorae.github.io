@@ -143,6 +143,60 @@
     
       <article class="post on-list">
         <h1 class="post-title">
+          <a href="https://leonorae.github.io/posts/week-8-update/">Week 8 Update</a>
+        </h1>
+        <div class="post-meta"><time class="post-date">2025-10-23</time>
+          
+
+        </div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="https://leonorae.github.io/tags/"></a>&nbsp;
+            
+            #<a href="https://leonorae.github.io/tags/"></a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+
+        <div class="post-content">
+          
+            <h1 id="week-8-update">Week 8 Update</h1>
+<h2 id="this-week">This week</h2>
+<ul>
+<li>Added sections to my project org file documenting installaton prerequisites (eg. I had to install the <code>libgraphviz-pkg</code> on my system to get the <code>cgraph.h</code> library rather than the <code>graphviz</code> package) as well as errors that I encounter and their fixes. This will help me with my final README targeted to users wishing to use my code as well as &ldquo;future me.&rdquo; It will also help me create a Dockerfile or similar in the future.</li>
+<li>Discovered <code>bnlearn</code> python package (not the R one, which also seems good; I don&rsquo;t know if they are affiliated). It seems to be quite actively maintained and has a lot of helpful introductory material. It has an accessible API and good documentation which has made a lot of the implementation easier. However, this leaves me feeling like I will have to expand the scope of my project in some way, as a lot of my functions can be now reduced to a few lines of standard <code>model.fit; plot(model)</code> type code; I don&rsquo;t exactly mind having this problem, as it opens up the possibility to explore higher level ideas.</li>
+<li>Implemented basic discovery model usage with Sachs (2005) dataset</li>
+<li>Added more directory/module structure and stub files for planning/organization</li>
+</ul>
+<h2 id="next-week">Next week</h2>
+<ul>
+<li>Continue to implement basic features of API with</li>
+<li>Research and begin to implement more interesting combinations of algorithms (averaging models, meta-analysis, etc.) to implement in the API.</li>
+</ul>
+<h2 id="obstacles">Obstacles</h2>
+<ul>
+<li>More dependency compatibility issues and changing APIs: quite a few of the relevant packages are in their 0.xx stage of development and have changed their dependency requirements and/or APIs since available example code has been written. Some of them seem to have been effectively abandoned with nothing to make this clear to prospective users, leading to wasted time trying to get them set up. Thankfully, the functionality I need seems to exist in newer, maintained packages.</li>
+</ul>
+<h2 id="process">Process</h2>
+<p>The project update and the feedback I received really helped me feel more focused and directional this week. I think that iteratively creating project structure with directories and stubs and filling them out with implementation is helping me to stay congizant of where I am going while I am working and is helping me to avoid getting lost in unfocused exploration and/or stuck not knowing where to go next. I am also enjoying the process of using notebooks to explore/document, then moving that code to a more structured system.</p>
+          
+        </div>
+
+        
+          <div>
+            <a class="read-more button" href="/posts/week-8-update/"> →</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h1 class="post-title">
           <a href="https://leonorae.github.io/posts/week-6-update/">Week 6 Update</a>
         </h1>
         <div class="post-meta"><time class="post-date">2025-10-09</time>
@@ -278,16 +332,19 @@
 
         <div class="post-content">
           
-            <p><a href="https://github.com/rguo12/awesome-causality-data">https://github.com/rguo12/awesome-causality-data</a></p>
-<p><a href="https://github.com/NickCH-K/causaldata">https://github.com/NickCH-K/causaldata</a></p>
-<p><a href="https://shubhanshu.com/awesome-causality/#data">https://shubhanshu.com/awesome-causality/#data</a></p>
-<p><a href="https://github.com/rguo12/awesome-causality-data">https://github.com/rguo12/awesome-causality-data</a>
-IHDP
-<a href="https://webdav.tuebingen.mpg.de/cause-effect/">https://webdav.tuebingen.mpg.de/cause-effect/</a></p>
+            <h4 id="ihdp">IHDP</h4>
+<p><a href="https://webdav.tuebingen.mpg.de/cause-effect/">https://webdav.tuebingen.mpg.de/cause-effect/</a></p>
 <p><a href="https://physionet.org/content/?csrfmiddlewaretoken=TS39rkfz9QQuHbiIRQKl79U0uTd1RfkZhatNliC0OT0JQOlUCac762oAfFhSbaZG&amp;csrfmiddlewaretoken=TS39rkfz9QQuHbiIRQKl79U0uTd1RfkZhatNliC0OT0JQOlUCac762oAfFhSbaZG&amp;csrfmiddlewaretoken=TS39rkfz9QQuHbiIRQKl79U0uTd1RfkZhatNliC0OT0JQOlUCac762oAfFhSbaZG&amp;topic=&amp;orderby=relevance-desc&amp;types=0&amp;page=39">https://physionet.org/content/?csrfmiddlewaretoken=TS39rkfz9QQuHbiIRQKl79U0uTd1RfkZhatNliC0OT0JQOlUCac762oAfFhSbaZG&csrfmiddlewaretoken=TS39rkfz9QQuHbiIRQKl79U0uTd1RfkZhatNliC0OT0JQOlUCac762oAfFhSbaZG&csrfmiddlewaretoken=TS39rkfz9QQuHbiIRQKl79U0uTd1RfkZhatNliC0OT0JQOlUCac762oAfFhSbaZG&topic=&orderby=relevance-desc&types=0&page=39</a></p>
-<p>mimic-iv subsets (no credentials required)
+<h4 id="mimic-iv">MIMIC-IV</h4>
+<p>subsets (no credentials required)
 <a href="https://physionet.org/content/mimic-iv-demo-meds/0.0.1/">https://physionet.org/content/mimic-iv-demo-meds/0.0.1/</a></p>
 <p><a href="https://physionet.org/content/mimic-iv-fhir-demo/2.1.0/">https://physionet.org/content/mimic-iv-fhir-demo/2.1.0/</a></p>
+<h3 id="discovery-datasets">Discovery Datasets</h3>
+<p><a href="https://www.causality.inf.ethz.ch/data/LUCAS.html">https://www.causality.inf.ethz.ch/data/LUCAS.html</a></p>
+<h3 id="sources-and-other-compilations">Sources and Other Compilations</h3>
+<p><a href="https://github.com/rguo12/awesome-causality-data">https://github.com/rguo12/awesome-causality-data</a></p>
+<p><a href="https://github.com/NickCH-K/causaldata">https://github.com/NickCH-K/causaldata</a></p>
+<p><a href="https://shubhanshu.com/awesome-causality/#data">https://shubhanshu.com/awesome-causality/#data</a></p>
           
         </div>
 
@@ -329,72 +386,22 @@ IHDP
 <p><a href="https://github.com/mckinsey/causalnex">https://github.com/mckinsey/causalnex</a></p>
 <p>**** tigramite
 <a href="https://jakobrunge.github.io/tigramite/">https://jakobrunge.github.io/tigramite/</a></p>
-<p>**** scikit-uplift
-<a href="https://www.uplift-modeling.com/en/latest/index.html">https://www.uplift-modeling.com/en/latest/index.html</a></p>
+<p>**** scikit-uplift</p>
+<p><a href="https://www.uplift-modeling.com/en/latest/index.html">https://www.uplift-modeling.com/en/latest/index.html</a></p>
+<h2 id="bayesian-networks">Bayesian Networks</h2>
+<h2 id="causal-discovery">Causal Discovery</h2>
+<h3 id="bnlearn"><a href="https://github.com/erdogant/bnlearn">bnlearn</a></h3>
+<h3 id="causal-learn"><a href="https://causal-learn.readthedocs.io/en/latest/">causal-learn</a></h3>
+<p>Based on Tetrad Java package.</p>
+<h3 id="dodiscover">dodiscover</h3>
+<p>dodiscover is a Python package for representing causal graphs. For example, Acyclic Directed Mixed Graphs (ADMG), also known as causal DAGs and Partial Ancestral Graphs (PAGs). It is largely an API wrapper around algorithms implemented in <code>causal-learn</code> and other libraries.</p>
+<p>Incomplete, experimental, and not released; it doesn&rsquo;t seem to be maintained nor has it been updated in the past year.</p>
           
         </div>
 
         
           <div>
             <a class="read-more button" href="/posts/causal-inference-package-comparison/"> →</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h1 class="post-title">
-          <a href="https://leonorae.github.io/posts/causal-inference-learning-resources/">Causal Inference Learning Resources</a>
-        </h1>
-        <div class="post-meta"><time class="post-date">2025-10-02</time><span class="post-author">Leonora Goble</span>
-          
-
-        </div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="https://leonorae.github.io/tags/"></a>&nbsp;
-            
-            #<a href="https://leonorae.github.io/tags/"></a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-
-        <div class="post-content">
-          
-            <h2 id="conceptual">conceptual</h2>
-<h3 id="introductory">introductory</h3>
-<p>this has good visualizations <a href="https://www.inference.vc/causal-inference-2-illustrating-interventions-in-a-toy-example/">https://www.inference.vc/causal-inference-2-illustrating-interventions-in-a-toy-example/</a></p>
-<p><a href="https://thedecisionlab.com/reference-guide/statistics/casual-inference">https://thedecisionlab.com/reference-guide/statistics/casual-inference</a></p>
-<h3 id="books">books</h3>
-<p><a href="https://matheusfacure.github.io/python-causality-handbook/landing-page.html">Causal Inference for The Brave and True</a>
-by Matheus Facure Alves</p>
-<p><a href="https://miguelhernan.org/whatifbook">https://miguelhernan.org/whatifbook</a></p>
-<p><a href="https://mitp-content-server.mit.edu/books/content/sectbyfn?collid=books_pres_0&amp;id=11283&amp;fn=11283.pdf">https://mitp-content-server.mit.edu/books/content/sectbyfn?collid=books_pres_0&id=11283&fn=11283.pdf</a></p>
-<p><a href="https://causalml-book.org/">https://causalml-book.org/</a></p>
-<h2 id="in-python">in Python</h2>
-<p>*** Resources
-<a href="https://www.pywhy.org/">https://www.pywhy.org/</a></p>
-<p><a href="https://causalwizard.app/inference/categories/">https://causalwizard.app/inference/categories/</a></p>
-<p><a href="https://causalnex.readthedocs.io/en/latest/index.html">https://causalnex.readthedocs.io/en/latest/index.html</a></p>
-<p><a href="https://www.pywhy.org/dowhy/v0.11.1/index.html">https://www.pywhy.org/dowhy/v0.11.1/index.html</a></p>
-<p><a href="https://www.pywhy.org/EconML/">https://www.pywhy.org/EconML/</a></p>
-<p><a href="https://causeme.uv.es/">https://causeme.uv.es/</a></p>
-<p>uplift modeling, recent ML methods
-<a href="https://github.com/uber/causalml">https://github.com/uber/causalml</a>
-<a href="https://causalml.readthedocs.io/en/latest/about.html">https://causalml.readthedocs.io/en/latest/about.html</a></p>
-<h2 id="sources-and-other-resource-compilations">sources and other resource compilations</h2>
-<p><a href="https://shubhanshu.com/awesome-causality/">https://shubhanshu.com/awesome-causality/</a></p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button" href="/posts/causal-inference-learning-resources/"> →</a>
           </div>
         
       </article>
