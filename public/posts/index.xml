@@ -5,8 +5,52 @@
     <link>https://leonorae.github.io/posts/</link>
     <description>Recent content in Posts on leonorae</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Thu, 23 Oct 2025 17:05:32 -0500</lastBuildDate><atom:link href="https://leonorae.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Nov 2025 22:33:32 -0600</lastBuildDate><atom:link href="https://leonorae.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 10 Update</title>
+      <link>https://leonorae.github.io/posts/week-10-update/</link>
+      <pubDate>Tue, 11 Nov 2025 22:33:32 -0600</pubDate>
+      
+      <guid>https://leonorae.github.io/posts/week-10-update/</guid>
+      <description>&lt;h2 id=&#34;this-week&#34;&gt;This Week&lt;/h2&gt;
+&lt;h3 id=&#34;api-improvements&#34;&gt;API Improvements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Multiple dataset selection&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Just the example datasets included with bnlearn for now, but began scaffolding to implement adding new datasets using a simple dataset registry with json with tags. Endpoint for listing available datasets, which will be expanded to display more statistics.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Comparison endpoint&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Gives results from multiple specified discovery algorithms in a convenient report, so far just with pure algorithmic discovery. This isn&amp;rsquo;t that useful for many datasets; I will need to add functionality for incorporating domain knowledge constraints, which is more practically useful.&lt;/p&gt;</description>
+      <content>&lt;h2 id=&#34;this-week&#34;&gt;This Week&lt;/h2&gt;
+&lt;h3 id=&#34;api-improvements&#34;&gt;API Improvements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Multiple dataset selection&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Just the example datasets included with bnlearn for now, but began scaffolding to implement adding new datasets using a simple dataset registry with json with tags. Endpoint for listing available datasets, which will be expanded to display more statistics.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Comparison endpoint&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Gives results from multiple specified discovery algorithms in a convenient report, so far just with pure algorithmic discovery. This isn&amp;rsquo;t that useful for many datasets; I will need to add functionality for incorporating domain knowledge constraints, which is more practically useful.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Began Final Report&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Began outlining topics to cover in final report, mainly the high-level conceptual topics I have researched about how causality relates to the AI field more broadly. Main topic of research recently has been the relationship and subtle differences between causality and RL. In a sense, the Bellman equation learns causal knowledge through the agent&amp;rsquo;s actions. The most obvious difference is that RL is mostly an online process, but causality learns from statistical relationships in observed data.&lt;/p&gt;
+&lt;h2 id=&#34;next-week&#34;&gt;Next Week&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Polish and expand API features&lt;/li&gt;
+&lt;li&gt;More robust testing and verification&lt;/li&gt;
+&lt;li&gt;Further research on open research problems (mainly relation to interpretable models / agent explainability) to write about in report, possibly with code as well&lt;/li&gt;
+&lt;li&gt;Clean up and remove old dependencies from requirements, test reproducibility of dependencies and environment on other machines, look into containerization if time/necessary&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;impediments&#34;&gt;Impediments&lt;/h2&gt;
+&lt;p&gt;Right now my main impediment with the project is the large gap between simply applying causal discovery and inference methods to data and more interesting research questions. I doubt I will have enough time to explore them with this project, so I will focus on creating a minimal finished product and learning more about the frameworks and libraries that I am using.&lt;/p&gt;
+&lt;h2 id=&#34;process&#34;&gt;Process&lt;/h2&gt;
+&lt;p&gt;I think that streamlining my environment and dependency management more will make a big difference, as right now I can only work on the project directly from one computer, which obviously isn&amp;rsquo;t ideal, and would make working in a team very difficult. I should have taken more care from the start with this, but I don&amp;rsquo;t think that it will be difficult.&lt;/p&gt;
+</content>
+    </item>
+    
     <item>
       <title>Week 8 Update</title>
       <link>https://leonorae.github.io/posts/week-8-update/</link>

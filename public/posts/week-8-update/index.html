@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Week 8 Update :: leonorae</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Week 8 Update This week Added sections to my project org file documenting installaton prerequisites (eg. I had to install the libgraphviz-pkg on my system to get the cgraph.h library rather than the graphviz package) as well as errors that I encounter and their fixes. This will help me with my final README targeted to users wishing to use my code as well as &ldquo;future me.&rdquo; It will also help me create a Dockerfile or similar in the future. Discovered bnlearn python package (not the R one, which also seems good; I don&rsquo;t know if they are affiliated). It seems to be quite actively maintained and has a lot of helpful introductory material. It has an accessible API and good documentation which has made a lot of the implementation easier. However, this leaves me feeling like I will have to expand the scope of my project in some way, as a lot of my functions can be now reduced to a few lines of standard model.fit; plot(model) type code; I don&rsquo;t exactly mind having this problem, as it opens up the possibility to explore higher level ideas. Implemented basic discovery model usage with Sachs (2005) dataset Added more directory/module structure and stub files for planning/organization Next week Continue to implement basic features of API with Research and begin to implement more interesting combinations of algorithms (averaging models, meta-analysis, etc.) to implement in the API. Obstacles More dependency compatibility issues and changing APIs: quite a few of the relevant packages are in their 0.xx stage of development and have changed their dependency requirements and/or APIs since available example code has been written. Some of them seem to have been effectively abandoned with nothing to make this clear to prospective users, leading to wasted time trying to get them set up. Thankfully, the functionality I need seems to exist in newer, maintained packages. Process The project update and the feedback I received really helped me feel more focused and directional this week. I think that iteratively creating project structure with directories and stubs and filling them out with implementation is helping me to stay congizant of where I am going while I am working and is helping me to avoid getting lost in unfocused exploration and/or stuck not knowing where to go next. I am also enjoying the process of using notebooks to explore/document, then moving that code to a more structured system.
+" />
+<meta name="keywords" content=", " />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="https://leonorae.github.io/posts/week-8-update/" />
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://leonorae.github.io/styles.css">
+
+
+
+
+
+
+
+  <link rel="shortcut icon" href="https://leonorae.github.io/img/theme-colors/paper.png">
+  <link rel="apple-touch-icon" href="https://leonorae.github.io/img/theme-colors/paper.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Week 8 Update">
+<meta property="og:description" content="Week 8 Update This week Added sections to my project org file documenting installaton prerequisites (eg. I had to install the libgraphviz-pkg on my system to get the cgraph.h library rather than the graphviz package) as well as errors that I encounter and their fixes. This will help me with my final README targeted to users wishing to use my code as well as &ldquo;future me.&rdquo; It will also help me create a Dockerfile or similar in the future. Discovered bnlearn python package (not the R one, which also seems good; I don&rsquo;t know if they are affiliated). It seems to be quite actively maintained and has a lot of helpful introductory material. It has an accessible API and good documentation which has made a lot of the implementation easier. However, this leaves me feeling like I will have to expand the scope of my project in some way, as a lot of my functions can be now reduced to a few lines of standard model.fit; plot(model) type code; I don&rsquo;t exactly mind having this problem, as it opens up the possibility to explore higher level ideas. Implemented basic discovery model usage with Sachs (2005) dataset Added more directory/module structure and stub files for planning/organization Next week Continue to implement basic features of API with Research and begin to implement more interesting combinations of algorithms (averaging models, meta-analysis, etc.) to implement in the API. Obstacles More dependency compatibility issues and changing APIs: quite a few of the relevant packages are in their 0.xx stage of development and have changed their dependency requirements and/or APIs since available example code has been written. Some of them seem to have been effectively abandoned with nothing to make this clear to prospective users, leading to wasted time trying to get them set up. Thankfully, the functionality I need seems to exist in newer, maintained packages. Process The project update and the feedback I received really helped me feel more focused and directional this week. I think that iteratively creating project structure with directories and stubs and filling them out with implementation is helping me to stay congizant of where I am going while I am working and is helping me to avoid getting lost in unfocused exploration and/or stuck not knowing where to go next. I am also enjoying the process of using notebooks to explore/document, then moving that code to a more structured system.
+" />
+<meta property="og:url" content="https://leonorae.github.io/posts/week-8-update/" />
+<meta property="og:site_name" content="leonorae" />
+
+  
+  
+  <meta property="og:image" content="https://leonorae.github.io/">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2025-10-23 17:05:32 -0500 CDT" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+</head>
+<body class="paper">
+
+
+
+
+<div class="container headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    leonorae
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about/">About</a></li>
+        
+      
+        
+          <li><a href="/posts/">Posts</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+      
+        
+          <li><a href="/about/" >About</a></li>
+        
+      
+        
+          <li><a href="/posts/" >Posts</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="https://leonorae.github.io/posts/week-8-update/">Week 8 Update</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2025-10-23</time>
+    
+</div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="https://leonorae.github.io/tags/"></a>&nbsp;
+      
+      #<a href="https://leonorae.github.io/tags/"></a>&nbsp;
+      
+    </span>
+  
+  
+
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="week-8-update">Week 8 Update<a href="#week-8-update" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<h2 id="this-week">This week<a href="#this-week" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<ul>
+<li>Added sections to my project org file documenting installaton prerequisites (eg. I had to install the <code>libgraphviz-pkg</code> on my system to get the <code>cgraph.h</code> library rather than the <code>graphviz</code> package) as well as errors that I encounter and their fixes. This will help me with my final README targeted to users wishing to use my code as well as &ldquo;future me.&rdquo; It will also help me create a Dockerfile or similar in the future.</li>
+<li>Discovered <code>bnlearn</code> python package (not the R one, which also seems good; I don&rsquo;t know if they are affiliated). It seems to be quite actively maintained and has a lot of helpful introductory material. It has an accessible API and good documentation which has made a lot of the implementation easier. However, this leaves me feeling like I will have to expand the scope of my project in some way, as a lot of my functions can be now reduced to a few lines of standard <code>model.fit; plot(model)</code> type code; I don&rsquo;t exactly mind having this problem, as it opens up the possibility to explore higher level ideas.</li>
+<li>Implemented basic discovery model usage with Sachs (2005) dataset</li>
+<li>Added more directory/module structure and stub files for planning/organization</li>
+</ul>
+<h2 id="next-week">Next week<a href="#next-week" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<ul>
+<li>Continue to implement basic features of API with</li>
+<li>Research and begin to implement more interesting combinations of algorithms (averaging models, meta-analysis, etc.) to implement in the API.</li>
+</ul>
+<h2 id="obstacles">Obstacles<a href="#obstacles" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<ul>
+<li>More dependency compatibility issues and changing APIs: quite a few of the relevant packages are in their 0.xx stage of development and have changed their dependency requirements and/or APIs since available example code has been written. Some of them seem to have been effectively abandoned with nothing to make this clear to prospective users, leading to wasted time trying to get them set up. Thankfully, the functionality I need seems to exist in newer, maintained packages.</li>
+</ul>
+<h2 id="process">Process<a href="#process" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>The project update and the feedback I received really helped me feel more focused and directional this week. I think that iteratively creating project structure with directories and stubs and filling them out with implementation is helping me to stay congizant of where I am going while I am working and is helping me to avoid getting lost in unfocused exploration and/or stuck not knowing where to go next. I am also enjoying the process of using notebooks to explore/document, then moving that code to a more structured system.</p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+    <div class="pagination__title">
+        <span class="pagination__title-h"></span>
+        <hr />
+    </div>
+    <div class="pagination__buttons">
+        
+        <span class="button previous">
+            <a href="https://leonorae.github.io/posts/week-10-update/">
+                <span class="button__icon">←</span>
+                <span class="button__text">Week 10 Update</span>
+            </a>
+        </span>
+        
+        
+        <span class="button next">
+            <a href="https://leonorae.github.io/posts/week-6-update/">
+                <span class="button__text">Week 6 Update</span>
+                <span class="button__icon">→</span>
+            </a>
+        </span>
+        
+    </div>
+</div>
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/mirus-ua/hugo-theme-re-terminal" target="_blank">Theme</a> made by <a href="https://github.com/mirus-ua" target="_blank">Mirus</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
