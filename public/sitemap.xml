@@ -2,11 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://leonorae.github.io/posts/final-report/</loc>
+    <lastmod>2025-12-04T16:47:29-06:00</lastmod>
+  </url><url>
     <loc>https://leonorae.github.io/</loc>
-    <lastmod>2025-11-11T22:33:32-06:00</lastmod>
+    <lastmod>2025-12-04T16:47:29-06:00</lastmod>
   </url><url>
     <loc>https://leonorae.github.io/posts/</loc>
-    <lastmod>2025-11-11T22:33:32-06:00</lastmod>
+    <lastmod>2025-12-04T16:47:29-06:00</lastmod>
+  </url><url>
+    <loc>https://leonorae.github.io/posts/week-11-update/</loc>
+    <lastmod>2025-11-11T22:39:51-06:00</lastmod>
   </url><url>
     <loc>https://leonorae.github.io/posts/week-10-update/</loc>
     <lastmod>2025-11-11T22:33:32-06:00</lastmod>

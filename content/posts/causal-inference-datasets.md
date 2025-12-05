@@ -14,6 +14,8 @@ hideComments = false
 color = "" #color from the theme settings
 +++
 
+bnlearn Bayesian Network Repository
+https://www.bnlearn.com/bnrepository/
 
 
 #### IHDP
@@ -33,6 +35,10 @@ https://www.causality.inf.ethz.ch/data/LUCAS.html
 
 
 ### Sources and Other Compilations
+https://www.cmu.edu/dietrich/causality/projects/causal_learn_benchmarks/
+
+https://github.com/cmu-phil/example-causal-datasets
+
 https://github.com/rguo12/awesome-causality-data
 
 https://github.com/NickCH-K/causaldata

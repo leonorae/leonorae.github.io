@@ -6,7 +6,93 @@
     <description>Recent content in Posts on leonorae</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Nov 2025 22:33:32 -0600</lastBuildDate><atom:link href="https://leonorae.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Dec 2025 16:47:29 -0600</lastBuildDate><atom:link href="https://leonorae.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Final Report</title>
+      <link>https://leonorae.github.io/posts/final-report/</link>
+      <pubDate>Thu, 04 Dec 2025 16:47:29 -0600</pubDate>
+      
+      <guid>https://leonorae.github.io/posts/final-report/</guid>
+      <description>&lt;h1 id=&#34;final-report&#34;&gt;Final Report&lt;/h1&gt;
+&lt;h5 id=&#34;leonora-goble&#34;&gt;Leonora Goble&lt;/h5&gt;
+&lt;h5 id=&#34;cspb-3112---professional-development&#34;&gt;CSPB 3112 - Professional Development&lt;/h5&gt;
+&lt;h5 id=&#34;causal-discovery-api&#34;&gt;Causal Discovery API&lt;/h5&gt;
+&lt;h2 id=&#34;introduction-and-background&#34;&gt;Introduction and Background&lt;/h2&gt;
+&lt;p&gt;My project was inspired by my interest in historical AI techniques as well as my introduction to Bayesian networks via the Artificial Intelligence class. I wanted to use the opportunity of this class to focus my (initially vague) research interest into a concrete project that would allow me to learn practical development skills, modern Python library usage and project management best practices, and explore the current state of the field and its relationship to the broader AI research field.&lt;/p&gt;</description>
+      <content>&lt;h1 id=&#34;final-report&#34;&gt;Final Report&lt;/h1&gt;
+&lt;h5 id=&#34;leonora-goble&#34;&gt;Leonora Goble&lt;/h5&gt;
+&lt;h5 id=&#34;cspb-3112---professional-development&#34;&gt;CSPB 3112 - Professional Development&lt;/h5&gt;
+&lt;h5 id=&#34;causal-discovery-api&#34;&gt;Causal Discovery API&lt;/h5&gt;
+&lt;h2 id=&#34;introduction-and-background&#34;&gt;Introduction and Background&lt;/h2&gt;
+&lt;p&gt;My project was inspired by my interest in historical AI techniques as well as my introduction to Bayesian networks via the Artificial Intelligence class. I wanted to use the opportunity of this class to focus my (initially vague) research interest into a concrete project that would allow me to learn practical development skills, modern Python library usage and project management best practices, and explore the current state of the field and its relationship to the broader AI research field.&lt;/p&gt;
+&lt;p&gt;I consider this project important to my professional development as an AI researcher and AI-enabled software developer because it is related to explainable/interpretable AI, one of my main research interests. I want to be able to quickly pick up an understanding of a technical subfield and explore and evaluate whether it contains potential for new and unexpected developments, not just follow popular research trends. At the very least, I would like a precise understanding of the limitations of currently-considered &amp;ldquo;dead ends&amp;rdquo; in AI research, both to avoid recreating them and to spur alternative approaches.&lt;/p&gt;
+&lt;h3 id=&#34;original-project-goals&#34;&gt;Original Project Goals&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Implement a basic causal inference pipeline with example data using causal
+inference python packages. Document experience and reasoning for choices.&lt;/li&gt;
+&lt;li&gt;Outcome: gain knowledge of the state of existing causal inference packages
+(egs. DoWhy, CausalNex, EconML)
+in python, including tradeoffs/benefits of packages not used for the implementation
+of the project.&lt;/li&gt;
+&lt;li&gt;Create a basic API for the pipeline using &lt;code&gt;fastapi&lt;/code&gt;. Verify that it works with
+tests. Keep it updated as the pipeline and data change.&lt;/li&gt;
+&lt;li&gt;Outcome: gain experience with API implementation and maintenence.&lt;/li&gt;
+&lt;li&gt;Develop a more advanced causal inference pipeline with a real world (or
+synthetic approximation) dataset and additional functionality.&lt;/li&gt;
+&lt;li&gt;Outcome: gain knowledge of causal inference techniques and results,
+research experience, and development experience.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;methodology-materials-and-methods&#34;&gt;Methodology, Materials and Methods&lt;/h2&gt;
+&lt;p&gt;My methodology was to combine learning the theory, research, and development into a continuous process. I began by looking for general introductory material (textbooks, explainers, etc.), explored the basics using available packages and code (while evaluating my experience with them), and used my new understanding to hone my research approach. I would also use my research to guide my learning and development, if I encountered an interesting idea in a paper that was beyond my current level of understanding I would determine which knowledge I lacked, what prerequisites I needed to get there, how I could explore it in code, etc.&lt;/p&gt;
+&lt;p&gt;An important part of my methodology, facilitated by the requirements of this class, was to document my experience and the resources I acquired as I went. I also continuously documented questions and further research ideas I had as I went, so I could maintain a balance of staying focused at the task at hand while being exploratory, rather than constantly going down new rabbit holes.&lt;/p&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;p&gt;The main theoretical knowledge gain from this project was simply clarifying what the basic categories of causal reasoning task were and their methods, relationships to other tasks, and limitations. Before doing the project this was all muddy to me; I understood the general ideas of structure learning and inference but wasn&amp;rsquo;t quite sure what the boundaries were, or quite what the significance of their results was. I also gained a better understanding of causal reasoning&amp;rsquo;s relationship to data science and AI, particularly applications to reinforcement learning.&lt;/p&gt;
+&lt;p&gt;I met all of my basic project goals. I am confident that I have investigated the majority of existing causal inference/discovery packages in Python, and have a good idea of which are the most complete and actively developed, as well as a feeling for their differences. I also got some idea of the ecosystem outside of Python, including R and Java. I implemented causal discovery and inference methods with them and used tests (pytest) to verify the endpoints. The API has Pydtantic verification and typing features. I gained experience implementing an async/background job system with a database, ORM/schema, with FastAPI. The program has a clean architectural separation between the API, discovery logic, and background services. I explored various canonical datasets with my API.&lt;/p&gt;
+&lt;h2 id=&#34;discussion--reflection&#34;&gt;Discussion / Reflection&lt;/h2&gt;
+&lt;p&gt;I met all of my original project goals to an extent, but I would by no means consider myself an expert in the material nor particularly skilled at FastAPI etc. development as a result of this project. The biggest criticism I would have of my own project is that it somewhat lacks a practical identity or purpose, it does not provide much functionality beyond a API/server wrapper with some combination of libraries and streamlined functions. I did not have time to go particularly deep into any research area nor explore any &amp;ldquo;cutting edge&amp;rdquo; areas such as implementing novel algorithms described in papers. In the context of this particular class it was a good compromise of practicality and exploring my interests, but I don&amp;rsquo;t think that I would necessarily do something like it again. In the future, I think that I could benefit from a cleaner separation between exploration/research and focused &amp;ldquo;product&amp;rdquo; projects. For example, if I had done a more general/directed FastAPI project first, I may have gained those skills faster rather than dealing with the particularities of another library I was learning at the same time.&lt;/p&gt;
+&lt;p&gt;Overall, I think that the experience was good for my development simply for the experience of going through a project cycle and documenting it, I developed a lot of new methods for recording and presenting my progress, self-evaluating, and exploratory research. One of the main things that I learned was both the utility and extreme difficulty of setting concrete and attainable goals in a space that I do not fully understand the scope of. I do not feel that any of my attempts at prescribing a weekly plan adhered to what happened, but there was still utility in setting them. A couple of the (minor) goals that I set in my project update were not met because simply I did not realize that they were not applicable.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;While there is certainly a lot to be added if I want a coherent portfolio piece, I think that I have arrived at a good stopping point for the project in terms of this class and have a good idea about next steps and potential future research ideas if I choose to pursue them or a deeper understanding of this field in the future. I think that my new awareness of causal methods in RL will be a good pathway back into that subject for me. Most importantly, I feel that I have refined my self-guided research process in a useful way.&lt;/p&gt;
+&lt;h2 id=&#34;references-or-bibliography&#34;&gt;References or Bibliography&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.pywhy.org/&#34;&gt;https://www.pywhy.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://causalwizard.app/inference/categories/&#34;&gt;https://causalwizard.app/inference/categories/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://erdogant.github.io/bnlearn/pages/html/Introduction.html&#34;&gt;https://erdogant.github.io/bnlearn/pages/html/Introduction.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bnlearn.com/research/sachs05/&#34;&gt;https://www.bnlearn.com/research/sachs05/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.datacamp.com/tutorial/intro-to-causal-ai-using-the-dowhy-library-in-python&#34;&gt;https://www.datacamp.com/tutorial/intro-to-causal-ai-using-the-dowhy-library-in-python&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;bookslearning&#34;&gt;Books/Learning&lt;/h3&gt;
+&lt;h4 id=&#34;causal-inference-for-the-brave-and-true&#34;&gt;&lt;a href=&#34;https://matheusfacure.github.io/python-causality-handbook/landing-page.html&#34;&gt;Causal Inference for The Brave and True&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;what-if&#34;&gt;&lt;a href=&#34;https://miguelhernan.org/whatifbook&#34;&gt;What If?&lt;/a&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;starting-areas-for-further-research&#34;&gt;Starting areas for further research&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://crl.causalai.net/&#34;&gt;https://crl.causalai.net/&lt;/a&gt;
+&lt;a href=&#34;https://blog.gopenai.com/llms-for-causal-discovery-745e2cba0b59&#34;&gt;https://blog.gopenai.com/llms-for-causal-discovery-745e2cba0b59&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Additional resources
+&lt;a href=&#34;https://leonorae.github.io/posts/causal-inference-learning-resources/&#34;&gt;https://leonorae.github.io/posts/causal-inference-learning-resources/&lt;/a&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Week 11 Update</title>
+      <link>https://leonorae.github.io/posts/week-11-update/</link>
+      <pubDate>Tue, 11 Nov 2025 22:39:51 -0600</pubDate>
+      
+      <guid>https://leonorae.github.io/posts/week-11-update/</guid>
+      <description>&lt;p&gt;** This Week&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Organized &lt;code&gt;FastAPI&lt;/code&gt; routes into routers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;** Next Week&lt;/p&gt;
+&lt;p&gt;** Process&lt;/p&gt;
+&lt;p&gt;** Reflection&lt;/p&gt;</description>
+      <content>&lt;p&gt;** This Week&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Organized &lt;code&gt;FastAPI&lt;/code&gt; routes into routers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;** Next Week&lt;/p&gt;
+&lt;p&gt;** Process&lt;/p&gt;
+&lt;p&gt;** Reflection&lt;/p&gt;
+</content>
+    </item>
+    
     <item>
       <title>Week 10 Update</title>
       <link>https://leonorae.github.io/posts/week-10-update/</link>
@@ -209,7 +295,9 @@
       <pubDate>Thu, 02 Oct 2025 19:35:05 -0500</pubDate>
       
       <guid>https://leonorae.github.io/posts/causal-inference-datasets/</guid>
-      <description>&lt;h4 id=&#34;ihdp&#34;&gt;IHDP&lt;/h4&gt;
+      <description>&lt;p&gt;bnlearn Bayesian Network Repository
+&lt;a href=&#34;https://www.bnlearn.com/bnrepository/&#34;&gt;https://www.bnlearn.com/bnrepository/&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;ihdp&#34;&gt;IHDP&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&#34;https://webdav.tuebingen.mpg.de/cause-effect/&#34;&gt;https://webdav.tuebingen.mpg.de/cause-effect/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://physionet.org/content/?csrfmiddlewaretoken=TS39rkfz9QQuHbiIRQKl79U0uTd1RfkZhatNliC0OT0JQOlUCac762oAfFhSbaZG&amp;amp;csrfmiddlewaretoken=TS39rkfz9QQuHbiIRQKl79U0uTd1RfkZhatNliC0OT0JQOlUCac762oAfFhSbaZG&amp;amp;csrfmiddlewaretoken=TS39rkfz9QQuHbiIRQKl79U0uTd1RfkZhatNliC0OT0JQOlUCac762oAfFhSbaZG&amp;amp;topic=&amp;amp;orderby=relevance-desc&amp;amp;types=0&amp;amp;page=39&#34;&gt;https://physionet.org/content/?csrfmiddlewaretoken=TS39rkfz9QQuHbiIRQKl79U0uTd1RfkZhatNliC0OT0JQOlUCac762oAfFhSbaZG&amp;csrfmiddlewaretoken=TS39rkfz9QQuHbiIRQKl79U0uTd1RfkZhatNliC0OT0JQOlUCac762oAfFhSbaZG&amp;csrfmiddlewaretoken=TS39rkfz9QQuHbiIRQKl79U0uTd1RfkZhatNliC0OT0JQOlUCac762oAfFhSbaZG&amp;topic=&amp;orderby=relevance-desc&amp;types=0&amp;page=39&lt;/a&gt;&lt;/p&gt;
 &lt;h4 id=&#34;mimic-iv&#34;&gt;MIMIC-IV&lt;/h4&gt;
@@ -219,10 +307,14 @@
 &lt;h3 id=&#34;discovery-datasets&#34;&gt;Discovery Datasets&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.causality.inf.ethz.ch/data/LUCAS.html&#34;&gt;https://www.causality.inf.ethz.ch/data/LUCAS.html&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;sources-and-other-compilations&#34;&gt;Sources and Other Compilations&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.cmu.edu/dietrich/causality/projects/causal_learn_benchmarks/&#34;&gt;https://www.cmu.edu/dietrich/causality/projects/causal_learn_benchmarks/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/cmu-phil/example-causal-datasets&#34;&gt;https://github.com/cmu-phil/example-causal-datasets&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/rguo12/awesome-causality-data&#34;&gt;https://github.com/rguo12/awesome-causality-data&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/NickCH-K/causaldata&#34;&gt;https://github.com/NickCH-K/causaldata&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://shubhanshu.com/awesome-causality/#data&#34;&gt;https://shubhanshu.com/awesome-causality/#data&lt;/a&gt;&lt;/p&gt;</description>
-      <content>&lt;h4 id=&#34;ihdp&#34;&gt;IHDP&lt;/h4&gt;
+      <content>&lt;p&gt;bnlearn Bayesian Network Repository
+&lt;a href=&#34;https://www.bnlearn.com/bnrepository/&#34;&gt;https://www.bnlearn.com/bnrepository/&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;ihdp&#34;&gt;IHDP&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&#34;https://webdav.tuebingen.mpg.de/cause-effect/&#34;&gt;https://webdav.tuebingen.mpg.de/cause-effect/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://physionet.org/content/?csrfmiddlewaretoken=TS39rkfz9QQuHbiIRQKl79U0uTd1RfkZhatNliC0OT0JQOlUCac762oAfFhSbaZG&amp;amp;csrfmiddlewaretoken=TS39rkfz9QQuHbiIRQKl79U0uTd1RfkZhatNliC0OT0JQOlUCac762oAfFhSbaZG&amp;amp;csrfmiddlewaretoken=TS39rkfz9QQuHbiIRQKl79U0uTd1RfkZhatNliC0OT0JQOlUCac762oAfFhSbaZG&amp;amp;topic=&amp;amp;orderby=relevance-desc&amp;amp;types=0&amp;amp;page=39&#34;&gt;https://physionet.org/content/?csrfmiddlewaretoken=TS39rkfz9QQuHbiIRQKl79U0uTd1RfkZhatNliC0OT0JQOlUCac762oAfFhSbaZG&amp;csrfmiddlewaretoken=TS39rkfz9QQuHbiIRQKl79U0uTd1RfkZhatNliC0OT0JQOlUCac762oAfFhSbaZG&amp;csrfmiddlewaretoken=TS39rkfz9QQuHbiIRQKl79U0uTd1RfkZhatNliC0OT0JQOlUCac762oAfFhSbaZG&amp;topic=&amp;orderby=relevance-desc&amp;types=0&amp;page=39&lt;/a&gt;&lt;/p&gt;
 &lt;h4 id=&#34;mimic-iv&#34;&gt;MIMIC-IV&lt;/h4&gt;
@@ -232,6 +324,8 @@
 &lt;h3 id=&#34;discovery-datasets&#34;&gt;Discovery Datasets&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.causality.inf.ethz.ch/data/LUCAS.html&#34;&gt;https://www.causality.inf.ethz.ch/data/LUCAS.html&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;sources-and-other-compilations&#34;&gt;Sources and Other Compilations&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.cmu.edu/dietrich/causality/projects/causal_learn_benchmarks/&#34;&gt;https://www.cmu.edu/dietrich/causality/projects/causal_learn_benchmarks/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/cmu-phil/example-causal-datasets&#34;&gt;https://github.com/cmu-phil/example-causal-datasets&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/rguo12/awesome-causality-data&#34;&gt;https://github.com/rguo12/awesome-causality-data&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/NickCH-K/causaldata&#34;&gt;https://github.com/NickCH-K/causaldata&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://shubhanshu.com/awesome-causality/#data&#34;&gt;https://shubhanshu.com/awesome-causality/#data&lt;/a&gt;&lt;/p&gt;
@@ -244,7 +338,9 @@
       <pubDate>Thu, 02 Oct 2025 18:34:23 -0500</pubDate>
       
       <guid>https://leonorae.github.io/posts/causal-inference-package-comparison/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.pywhy.org/dowhy/v0.8/getting_started/comparison.html&#34;&gt;https://www.pywhy.org/dowhy/v0.8/getting_started/comparison.html&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;https://pgmpy.org/&#34;&gt;https://pgmpy.org/&lt;/a&gt;
+Lower level implementations of algorithms used in bnlearn&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.pywhy.org/dowhy/v0.8/getting_started/comparison.html&#34;&gt;https://www.pywhy.org/dowhy/v0.8/getting_started/comparison.html&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://causalnex.readthedocs.io/en/latest/05_resources/05_faq.html#what-are-the-benefits-of-using-causalnex&#34;&gt;https://causalnex.readthedocs.io/en/latest/05_resources/05_faq.html#what-are-the-benefits-of-using-causalnex&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.pywhy.org/dowhy/v0.13/&#34;&gt;https://www.pywhy.org/dowhy/v0.13/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/mckinsey/causalnex&#34;&gt;https://github.com/mckinsey/causalnex&lt;/a&gt;&lt;/p&gt;
@@ -255,12 +351,14 @@
 &lt;h2 id=&#34;bayesian-networks&#34;&gt;Bayesian Networks&lt;/h2&gt;
 &lt;h2 id=&#34;causal-discovery&#34;&gt;Causal Discovery&lt;/h2&gt;
 &lt;h3 id=&#34;bnlearn&#34;&gt;&lt;a href=&#34;https://github.com/erdogant/bnlearn&#34;&gt;bnlearn&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;This seems to be the most complete, well designed, and well-documented package for discovery methods. The API is simple and there are many good examples provided.&lt;/p&gt;
 &lt;h3 id=&#34;causal-learn&#34;&gt;&lt;a href=&#34;https://causal-learn.readthedocs.io/en/latest/&#34;&gt;causal-learn&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Based on Tetrad Java package.&lt;/p&gt;
+&lt;p&gt;Based on Tetrad Java project. Contains some methods that aren&amp;rsquo;t in bnlearn.&lt;/p&gt;
 &lt;h3 id=&#34;dodiscover&#34;&gt;dodiscover&lt;/h3&gt;
-&lt;p&gt;dodiscover is a Python package for representing causal graphs. For example, Acyclic Directed Mixed Graphs (ADMG), also known as causal DAGs and Partial Ancestral Graphs (PAGs). It is largely an API wrapper around algorithms implemented in &lt;code&gt;causal-learn&lt;/code&gt; and other libraries.&lt;/p&gt;
-&lt;p&gt;Incomplete, experimental, and not released; it doesn&amp;rsquo;t seem to be maintained nor has it been updated in the past year.&lt;/p&gt;</description>
-      <content>&lt;p&gt;&lt;a href=&#34;https://www.pywhy.org/dowhy/v0.8/getting_started/comparison.html&#34;&gt;https://www.pywhy.org/dowhy/v0.8/getting_started/comparison.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;dodiscover is a Python package for representing causal graphs. For example, Acyclic Directed Mixed Graphs (ADMG), also known as causal DAGs and Partial Ancestral Graphs (PAGs). It is largely an API wrapper around algorithms implemented in &lt;code&gt;causal-learn&lt;/code&gt; and other libraries.&lt;/p&gt;</description>
+      <content>&lt;p&gt;&lt;a href=&#34;https://pgmpy.org/&#34;&gt;https://pgmpy.org/&lt;/a&gt;
+Lower level implementations of algorithms used in bnlearn&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.pywhy.org/dowhy/v0.8/getting_started/comparison.html&#34;&gt;https://www.pywhy.org/dowhy/v0.8/getting_started/comparison.html&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://causalnex.readthedocs.io/en/latest/05_resources/05_faq.html#what-are-the-benefits-of-using-causalnex&#34;&gt;https://causalnex.readthedocs.io/en/latest/05_resources/05_faq.html#what-are-the-benefits-of-using-causalnex&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.pywhy.org/dowhy/v0.13/&#34;&gt;https://www.pywhy.org/dowhy/v0.13/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/mckinsey/causalnex&#34;&gt;https://github.com/mckinsey/causalnex&lt;/a&gt;&lt;/p&gt;
@@ -271,8 +369,9 @@
 &lt;h2 id=&#34;bayesian-networks&#34;&gt;Bayesian Networks&lt;/h2&gt;
 &lt;h2 id=&#34;causal-discovery&#34;&gt;Causal Discovery&lt;/h2&gt;
 &lt;h3 id=&#34;bnlearn&#34;&gt;&lt;a href=&#34;https://github.com/erdogant/bnlearn&#34;&gt;bnlearn&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;This seems to be the most complete, well designed, and well-documented package for discovery methods. The API is simple and there are many good examples provided.&lt;/p&gt;
 &lt;h3 id=&#34;causal-learn&#34;&gt;&lt;a href=&#34;https://causal-learn.readthedocs.io/en/latest/&#34;&gt;causal-learn&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Based on Tetrad Java package.&lt;/p&gt;
+&lt;p&gt;Based on Tetrad Java project. Contains some methods that aren&amp;rsquo;t in bnlearn.&lt;/p&gt;
 &lt;h3 id=&#34;dodiscover&#34;&gt;dodiscover&lt;/h3&gt;
 &lt;p&gt;dodiscover is a Python package for representing causal graphs. For example, Acyclic Directed Mixed Graphs (ADMG), also known as causal DAGs and Partial Ancestral Graphs (PAGs). It is largely an API wrapper around algorithms implemented in &lt;code&gt;causal-learn&lt;/code&gt; and other libraries.&lt;/p&gt;
 &lt;p&gt;Incomplete, experimental, and not released; it doesn&amp;rsquo;t seem to be maintained nor has it been updated in the past year.&lt;/p&gt;
